@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<tree>
+  <node>
+    <name>node8_nanolating</name>
+    <techID>nanolathing</techID>
+    <pos>-475.6188,1050.876,-1</pos>
+    <icon>NANOLATHING</icon>
+    <cost>1000</cost>
+    <title>Nanolathing</title>
+    <description>The very latest in construction technology.</description>
+    <anyParent>False</anyParent>
+    <hideIfEmpty>True</hideIfEmpty>
+    <parents>node7_composites</parents>
+    <parts>
+      <name>LLLSquare</name>
+      <name>LLLTriangle</name>
+      <name>LLLTriangleRightangle</name>
+      <name>LLLSquare4</name>
+      <name>PolyHab</name>
+      <name>PolyHab2</name>
+      <name>Windowsect</name>
+      <name>LLLWalkwayNEW</name>
+      <name>LLLGreenhouse</name>
+      <name>LLLGreenhousemid</name>
+      <name>CoolingGrillLarge</name>
+      <name>Viewplat</name>
+      <name>WalkwayOLD</name>
+      <name>Wincurve</name>
+      <name>WindRadial</name>
+    </parts>
+  </node>
+</tree>
