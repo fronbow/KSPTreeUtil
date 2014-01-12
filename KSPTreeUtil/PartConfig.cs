@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +31,13 @@ namespace KSPTreeUtil
 
         public override string ToString()
         {
-            return base.ToString();
+            string rootdir = Properties.Settings.Default.KSPGameData;
+            string tmp_field = filename.Replace(rootdir, "");
+
+            FileInfo ff = new FileInfo(filename);
+            DirectoryInfo di = ff.Directory;
+
+            return tmp_field + " - " + name;
         }
     }
 }

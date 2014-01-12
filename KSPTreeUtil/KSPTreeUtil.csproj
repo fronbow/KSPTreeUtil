@@ -88,6 +88,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -113,6 +118,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -151,6 +160,51 @@
     <Content Include="GameData.xml">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Resources\Field_science.png" />
+    <None Include="Resources\Electronics.png" />
+    <None Include="Resources\Composites.png" />
+    <None Include="Resources\Basic_rocketry.png" />
+    <None Include="Resources\Advanced_unmanned_tech.png" />
+    <None Include="Resources\Advanced_science_tech.png" />
+    <None Include="Resources\Advanced_rocketry.png" />
+    <None Include="Resources\Advanced_rocketry%281%29.png" />
+    <None Include="Resources\Advanced_motors.png" />
+    <None Include="Resources\Advanced_metalworks.png" />
+    <None Include="Resources\Advanced_landing.png" />
+    <None Include="Resources\Advanced_exploration.png" />
+    <None Include="Resources\Advanced_electrics.png" />
+    <None Include="Resources\Advanced_constuction.png" />
+    <None Include="Resources\Advanced_aerodynamics.png" />
+    <None Include="Resources\Unmanned_tech.png" />
+    <None Include="Resources\Tech_tree_very_heavy_rocketry.png" />
+    <None Include="Resources\Tech_tree_nuclear_propulsion.png" />
+    <None Include="Resources\Tech_tree_large_control.png" />
+    <None Include="Resources\Tech_tree_electrics.png" />
+    <None Include="Resources\Tech_tree_aerodynamics.png" />
+    <None Include="Resources\Tech_tree_advanced_flight_control.png" />
+    <None Include="Resources\Survivability.png" />
+    <None Include="Resources\Supersonic_flight.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\Stability.png" />
+    <None Include="Resources\Specialized_electrics.png" />
+    <None Include="Resources\Specialized_control.png" />
+    <None Include="Resources\Specialized_construction.png" />
+    <None Include="Resources\Space_exploration.png" />
+    <None Include="Resources\Science_tech.png" />
+    <None Include="Resources\Precision_engineering.png" />
+    <None Include="Resources\Meta-materials.png" />
+    <None Include="Resources\Large_probes.png" />
+    <None Include="Resources\Large_electrics.png" />
+    <None Include="Resources\Landing.png" />
+    <None Include="Resources\Ion_propulsion.png" />
+    <None Include="Resources\Hypersonic_flight.png" />
+    <None Include="Resources\High_altitude_flight.png" />
+    <None Include="Resources\Heavy_aerodynamics.png" />
+    <None Include="Resources\Heavier_rocketry.png" />
+    <None Include="Resources\General_rocketry.png" />
+    <None Include="Resources\General_construction.png" />
+    <None Include="Resources\Fuel_systems.png" />
+    <None Include="Resources\Flight_control.png" />
     <None Include="icons.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

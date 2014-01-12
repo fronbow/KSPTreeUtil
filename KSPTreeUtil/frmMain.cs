@@ -118,13 +118,13 @@ namespace KSPTreeUtil
             int numLines = File.ReadLines(@path).Count();
             int counter = 0;
             RegexOptions options = RegexOptions.IgnorePatternWhitespace | RegexOptions.Singleline;
+            string pattern = Regex.Escape("{") + ".*?" + Regex.Escape("}");
+            string patterns = "(AUDIO|MODULE|MODEL|EFFECTS|RESOURCE|PROPELLANT).*?" + pattern;      //remove inner patterns from part.cfg
+
             string tmpFile = Regex.Replace(file, "//.*?\\r\\n", "", options);            //remove comment lines
+            
             tmpFile = Regex.Replace(tmpFile, "(\\t)", "", options);                      //remove tabs
-            tmpFile = Regex.Replace(tmpFile, "AUDIO\\r\\n\\{.*?\\}", "", options);       //remove AUDIO{} blocks
-            tmpFile = Regex.Replace(tmpFile, "MODULE\\r\\n\\{.*?\\}", "", options);      //remove MODULE{} blocks
-            tmpFile = Regex.Replace(tmpFile, "MODEL\\r\\n\\{.*?\\}", "", options);       //remove MODEL{} blocks
-            tmpFile = Regex.Replace(tmpFile, "EFFECTS\\r\\n\\{.*?\\}", "", options);     //remove EFFECTS{} blocks
-            tmpFile = Regex.Replace(tmpFile, "RESOURCE\\r\\n\\{.*?\\}", "", options);     //remove RESOURCE{} blocks
+            tmpFile = Regex.Replace(tmpFile, patterns, "", options);
 
             //tmpFile = Regex.Replace(tmpFile, "(\\r\\n\\t|\\r\\n|\\t)", " ");
             string[] tparts = Regex.Split(tmpFile, "PART.*?\\{(.*?)\\}", options);
@@ -145,7 +145,7 @@ namespace KSPTreeUtil
 
             foreach (string value in parts)
             {
-                string[] splitCache = value.Split(new string[] { "\n", "\r\n", "\t", "{", "}" }, StringSplitOptions.RemoveEmptyEntries);
+                string[] splitCache = value.Split(new string[] { "\n", "\r", "\t", "{", "}" }, StringSplitOptions.RemoveEmptyEntries);
                 tmpParts[counter] = new PartConfig();
                 foreach (string sc in splitCache)
                 {
@@ -173,10 +173,11 @@ namespace KSPTreeUtil
                     }
                 }
                 tmpParts[counter].filename = @path;
+                lbPartList.Items.Add(tmpParts[counter].ToString());
                 counter++;
             }
             //lbPartList.DataSource = tmpParts.ToList();
-            lbPartList.Items.Add(tmpParts.ToList());
+            //lbPartList.Items.Add(tmpParts.ToList());
         }
 
         private void readTree(string path)
