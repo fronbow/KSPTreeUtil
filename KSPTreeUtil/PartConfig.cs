@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace KSPTreeUtil
@@ -37,7 +38,9 @@ namespace KSPTreeUtil
             FileInfo ff = new FileInfo(filename);
             DirectoryInfo di = ff.Directory;
 
-            return tmp_field + " - " + name;
+            string[] ret = Regex.Split(tmp_field, "\\\\");
+
+            return ret[1] + " : " + name;
         }
     }
 }
