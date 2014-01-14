@@ -1,0 +1,3586 @@
+NODE
+{
+	name = newnode_advOrbitalScience
+	PARTS
+	{
+		part = Large.Crewed.Lab
+		part = spectrometron
+	}
+}
+NODE
+{
+	name = newnode_orbitalScience
+	PARTS
+	{
+		part = skylab
+		part = stationExper5
+		part = kibbalStorage
+		part = kibbalStorageJr
+		part = StnSciExperiment5
+		part = zoologyBay
+		part = scienceModule
+	}
+}
+NODE
+{
+	name = newnode_veryHeavyFission
+	PARTS
+	{
+		part = reactor1mw
+		part = NuclearReactor375
+		part = 4x2NucENG
+	}
+}
+NODE
+{
+	name = newnode_veryHeavySolids
+	PARTS
+	{
+		part = NP.srb.25m.long
+		part = NP.srb.25m.short
+		part = boosterRocko
+	}
+}
+NODE
+{
+	name = newnode_heavierSolids
+	PARTS
+	{
+		part = KWsrbGlobeX5
+	}
+}
+NODE
+{
+	name = newnode_heavySolids
+	PARTS
+	{
+		part = AluminiumHybrid1
+		part = CORE.SRB-065B-1
+	}
+}
+NODE
+{
+	name = newnode_advancedSolids
+	PARTS
+	{
+		part = NP.srb.sidemount
+		part = NP.srb.125m.smallstack
+		part = NP.srb.125m.ssrb
+		part = solidBooster1-1
+		part = CORE.SRB-050B-1
+		part = Kosmos.SepRetro
+		part = KWsrbGlobeVI
+		part = KWsrbGlobeV
+	}
+}
+NODE
+{
+	name = newnode_generalSolids
+	PARTS
+	{
+		part = NP.aux.radialsolidbooster
+		part = NP.srb.miniBooster
+		part = SMP.solidBooster1-1
+		part = KWsrbUllage
+	}
+}
+NODE
+{
+	name = newnode_lifeSupportRecycle
+	PARTS
+	{
+		part = waterFilter125
+		part = crewSupportRecycler
+		part = ECLSS.regenerator
+		part = TacCarbonExtractor
+		part = TacWaterPurifier
+	}
+}
+NODE
+{
+	name = newnode_lifeSupportRecycleLarge
+	PARTS
+	{
+		part = crewSupportRecycler.Large
+		part = TacAirFilter
+		part = TacCarbonExtractorLarge
+		part = TacWaterPurifierLarge
+	}
+}
+NODE
+{
+	name = newnode_lifeContainersLarge
+	PARTS
+	{
+		part = crewSupportTank.Large
+		part = TacFoodContainerLarge
+		part = TacLifeSupportContainerLarge
+		part = TacOxygenContainerLarge
+		part = TacWaterContainerLarge
+	}
+}
+NODE
+{
+	name = newnode_lifeContainersMedium
+	PARTS
+	{
+		part = crewSupportTank
+		part = ECLSS.tankO2
+		part = ECLSS.tankCO2
+		part = TacFoodContainer
+		part = TacLifeSupportContainer
+		part = TacOxygenContainer
+		part = TacWaterContainer
+	}
+}
+NODE
+{
+	name = newnode_lifeSupport
+	PARTS
+	{
+		part = CO2Scrub125
+		part = crewSupportTank.Radial
+		part = ECLSS.tankO2S
+		part = ECLSS.tankCO2S
+		part = TacFoodContainerSmall
+		part = TacLifeSupportContainerSmall
+		part = TacOxygenContainerSmall
+		part = TacWaterContainerSmall
+	}
+}
+NODE
+{
+	name = newnode_smallChutes
+	PARTS
+	{
+		part = parachuteDrogue
+		part = parachuteSingle
+		part = HL.AirshipEnvelope.Ray
+		part = RC.combo.small
+		part = sm.parachuteDrogue
+		part = RC.combo.small.stack
+		part = RC.main.small
+		part = RC.drogue.small
+		part = RC.drag.small
+		part = RC.main.small.stack
+		part = RC.drogue.small.stack
+		part = RC.drag.small.stack
+	}
+}
+NODE
+{
+	name = newnode_hugeHeatshields
+	PARTS
+	{
+		part = TriHeatShield10m
+		part = 6.25.Heatshield
+	}
+}
+NODE
+{
+	name = newnode_largeHeatshields
+	PARTS
+	{
+		part = TriHeatShield2m
+		part = 2.5.Heatshield
+		part = SDHI.2.5.Heatshield
+	}
+}
+NODE
+{
+	name = newnode_radialChutes
+	PARTS
+	{
+		part = parachuteRadial
+		part = RC.main.radial
+		part = RC.drogue.radial
+		part = RC.drag.radial
+	}
+}
+NODE
+{
+	name = newnode_largeChutes
+	PARTS
+	{
+		part = NP.chute.FuelTankCapParachute
+		part = NP.chute.1.25m.stackparachute
+		part = NP.chute.2.5m.stackparachute
+		part = parachuteLarge
+		part = RC.combo.large
+		part = RC.combo.large.stack
+		part = RC.main.large
+		part = RC.drogue.large
+		part = RC.drag.large
+		part = RC.main.large.stack
+		part = RC.drogue.large.stack
+		part = RC.drag.large.stack
+	}
+}
+NODE
+{
+	name = newnode_heavierStructures
+	PARTS
+	{
+		part = 3x1hull
+		part = OctoStrutMiniCargo
+		part = 4x1hull
+		part = B9.Structure.P8.Surface.Clear
+		part = LLLWeight5t
+		part = TriStrutAdaptron375
+		part = B9.Structure.P8.Surface.Half
+		part = TriStrutDouble
+		part = B9.Structure.P8.Frame
+		part = B9.Structure.P8.Frame2
+		part = B9.Structure.P8.Surface
+		part = TAL.Cubic.Truss.10m
+	}
+}
+NODE
+{
+	name = newnode_heavyStructures
+	PARTS
+	{
+		part = structuralIBeam2
+		part = structuralIBeam3
+		part = 2x1Weight
+		part = structuralPanel2
+		part = DSM25mToStrut
+		part = trussPiece3x
+		part = 2x1hull
+		part = B9.Structure.R4.Railing
+		part = 2x1xthirdhull
+		part = DSMStrut
+		part = Dual2x1hull
+		part = B9.Structure.PA.Adapter
+		part = 2x1to2x2
+		part = DSMStrutCargo
+		part = 2to1AdaptorOffCentre1
+		part = B9.Structure.P4.Surface.Clear
+		part = 2to1AdaptorOffCentre2
+		part = DSMStrutHub
+		part = 2to1AdaptorOffCentre
+		part = B9.Structure.P4.Surface.Half
+		part = LLLWeight1t
+		part = GE.200.OctoBay
+		part = B9.Structure.P4.Frame
+		part = OctoStrut
+		part = B9.Structure.P4.Surface
+		part = OctoStrutAdaptron250m
+		part = TriStrutAdaptron250
+		part = TriStrut
+		part = TriStrutPanelSmall
+		part = TriStrutPanelWide
+		part = TriStrutSplitterCirc
+		part = TAL.Cubic.Truss.3m
+		part = TriStrutPanel
+		part = TAL.Cubic.Truss.5m
+		part = TriStrutSmall
+		part = TAL.Cubic.Truss.Adapter.Large
+	}
+}
+NODE
+{
+	name = newnode_tinyAvantGarde
+	PARTS
+	{
+		part = SMP.toroidalAerospike
+		part = toroidalFuelTank
+		part = HexCanLBSmall
+		part = HexCanLFOSmall
+		part = HexCanLFSmall
+		part = HexCanMonoSmall
+		part = HexCanOxySmall
+		part = HexRackSmall
+		part = HexDecouplerRackSmall
+		part = TAL.Toroidal.Tank.Small.Fuel
+		part = TAL.Toroidal.Tank.Small.Utility
+		part = TAL.Toroidal.Tank.Hub.Small
+		part = HexCanOxygenSmall
+		part = HexCanDrinkingWaterSmall
+		part = HexCanFoodSmall
+		part = HexCanLifeSupportSmall
+	}
+}
+NODE
+{
+	name = newnode_largerHybridThrust
+	PARTS
+	{
+		part = MPD
+		part = HF-2500 Hybrid Main Engine
+	}
+}
+NODE
+{
+	name = newnode_largeHybridThrust
+	PARTS
+	{
+		part = smallMPD
+		part = HF-1000 Hybrid Medium Engine
+	}
+}
+NODE
+{
+	name = newnode_hybridThrust
+	PARTS
+	{
+		part = smallerMPD
+		part = HF-85 Radial Hybrid Engine
+		part = HexCanLithium
+	}
+}
+NODE
+{
+	name = newnode_hugeNobleStorage
+	PARTS
+	{
+		part = argonTank25inline
+		part = xenonTank400
+		part = RLA.xenonmed4
+	}
+}
+NODE
+{
+	name = newnode_regularNoblePropulsion
+	PARTS
+	{
+		part = argonTank50inline
+		part = argonTankSmlRad
+		part = cl.small.ionEngine
+		part = pitSmall
+		part = DSM25mIonEngine
+		part = vasimr-200
+		part = xenonTank100inline
+		part = IP-10 Medium Ion Engine
+		part = BigXenonTank
+		part = TriStrutElectricEngine
+		part = X120-M Xenon Tank
+		part = TriStrutMiniXenon
+		part = RLA.arcjet.small
+		part = RLA.ion.small
+		part = RLA.resistojet.small
+		part = RLA.xenonsmall4
+	}
+}
+NODE
+{
+	name = newnode_heavierFission
+	PARTS
+	{
+		part = nuclearcontainer25
+		part = reactor50kw
+		part = 2x1ENG
+		part = NP.lfe.25m.NERVA
+		part = ftmn280
+		part = engineFatNuke
+		part = NuclearReactor250
+	}
+}
+NODE
+{
+	name = newnode_largePlasmaThrust
+	PARTS
+	{
+		part = hydrogenTankLargeinline
+		part = hydrogenTankMedInline
+		part = h2TankLrgRad
+		part = mpdt.large
+	}
+}
+NODE
+{
+	name = newnode_heatshields
+	PARTS
+	{
+		part = 0625.Heatshield
+		part = 1.25.Heatshield
+	}
+}
+NODE
+{
+	name = newnode_basicCommunications
+	PARTS
+	{
+		part = radioreceiver
+		part = Radio2
+		part = longAntenna
+		part = SCANsat.Tracker
+		part = Antennaesc
+		part = km.smart.radio
+	}
+}
+NODE
+{
+	name = newnode_dishAntennas
+	PARTS
+	{
+		part = mediumDishAntenna
+		part = LLLAttchDishSmall
+		part = Dishcl1
+		part = Dishpcf
+		part = ISA.MapSat
+		part = RTShortDish1
+		part = RTShortDish2
+	}
+}
+NODE
+{
+	name = newnode_surfaceHabitation
+	PARTS
+	{
+		part = LLLRadar
+		part = B9.Structure.L8.Ladder
+		part = HOME2 Hub module
+		part = HOME2 Hub airlock
+		part = HOME2 Hub Fueltank
+		part = HOME2 Hub Green House
+		part = HOME2 Hub habitat
+		part = HOME2 Living module
+		part = HOME2 Parachute
+		part = HOME.modul.admin
+		part = HOME.3m.ASAS
+		part = HOME3mAtmosMiner
+		part = HOME.3m.decoupler
+		part = HOME3mFuelTank
+		part = HOME.modul.habitat
+		part = HOME.3m.legs.H
+		part = HOME3mRCStank
+		part = HOME3mSAS
+		part = exLaunchPad
+		part = exLaunchPad2
+		part = RocketBuilder
+		part = exRunway
+	}
+}
+NODE
+{
+	name = newnode_experimentalFission
+	PARTS
+	{
+		part = radiationsensor
+		part = engineShortNuke
+		part = ftmn40
+		part = SMP.nuclearEngine
+		part = ltby5000
+		part = sensorGammaRaySpectrometer
+		part = RLA.s.nerva
+	}
+}
+NODE
+{
+	name = newnode_logic
+	PARTS
+	{
+		part = seatExternalCmd
+		part = roverBody
+		part = hc.navcam
+		part = hc.scicam
+	}
+}
+NODE
+{
+	name = newnode_materialsInvestigations
+	PARTS
+	{
+		part = science.module
+		part = stationExper2
+		part = cyclotron
+		part = Scoop-O-Matic Jr.
+		part = StnSciExperiment2
+		part = B9.Cockpit.MK2.Nosecone.ASAS
+		part = B9.Control.ACU
+	}
+}
+NODE
+{
+	name = newnode_basicAeroframeVariants
+	PARTS
+	{
+		part = engineVTOLBlock
+		part = SMP.turboFanEngine
+		part = 1x1Jetfuel
+		part = SMP.ramAirIntake
+		part = MK1Fuselage
+		part = LLLCirc1b2H
+		part = B9.Cockpit.MK1.Body.5m
+		part = LLLCirc1b1H
+		part = HexRam
+		part = 1x1newcargo
+		part = TurboHex
+		part = 1x1newcargo1
+		part = airplaneTailSmall
+		part = MK1FuselageSmall
+		part = Mk1FuselageStructuralSmall
+		part = airScoopSmall
+		part = DA Tiny Jet
+	}
+}
+NODE
+{
+	name = newnode_advancedAeroframeVariants
+	PARTS
+	{
+		part = cockpitMk2B
+		part = Mk2DualAdapter
+		part = 2x1droprampcargo
+		part = mk2SpacePlaneAdapter
+		part = radial.atmospheric.scoop2
+		part = 2x1droprampleg
+		part = B9.Cockpit.MK1.Body.Fuel.5m
+		part = 2x1newcargo
+		part = B9.Cockpit.MK1.Tail.2
+		part = 2x1newcargo2
+		part = 2x2newcargo
+		part = turboFanEngineSmall
+		part = nacelleBodySmall
+		part = CircularIntakeSmall
+		part = mk2FuselageRocket
+	}
+}
+NODE
+{
+	name = newnode_heavyAeroframeVariants
+	PARTS
+	{
+		part = mk3spacePlaneAdapter
+		part = ThermalTurbojet2
+		part = 4x2droprampcargo
+		part = atmosphericScoop
+		part = warpAtmIntake
+		part = 4x2droprampleg
+		part = B9.Aero.Intake.RNM
+		part = B9.Cockpit.MK1.Junction
+		part = radialEngineBodySmall
+		part = ramAirIntakeSmall
+		part = TTC7-2madapdecoupler
+		part = TTC7Bombbay
+		part = TTC7Cargobay
+		part = TTmk3RocketFuselage
+		part = mk3FuselageRocket
+		part = TV.RamJet.Engine.Small
+		part = B9.Cockpit.MK5
+	}
+}
+NODE
+{
+	name = newnode_heavierAeroframeVariants
+	PARTS
+	{
+		part = 4x2newcargo
+		part = B9.Aero.Intake.DSIX
+		part = 4x2newcargo2
+		part = B9.Engine.Jet.Turbofan.F119
+		part = 4x4newcargo
+		part = B9.Engine.SABRE.M.Body
+		part = 4x4newcargo5adapt
+		part = B9.Engine.SABRE.Intake.M
+		part = B9.Engine.SABRE.M
+		part = B9.Utility.DockingPort.CDP
+		part = TD.EngineMountRadialLong
+	}
+}
+NODE
+{
+	name = newnode_advReactionControls
+	PARTS
+	{
+		part = NP.YMRCSBlockHeavy
+		part = SMP.linearRcs
+		part = 2x1RCSS
+		part = rcsTankRadialLong
+		part = AIESrcsThrusrmt1
+		part = RLA.mp.med
+		part = AIESrcsThrusrom9
+		part = RLA.mp.rad
+		part = B9.Control.RCS.Block.R12
+		part = RLA.mp.small
+		part = B9.Control.RCS.Block.R12T
+		part = RLA.mp.tiny
+		part = B9.Control.RCS.Block.R5
+		part = B9.Control.RCS.Block.R5T
+		part = B9.Control.RCS.Port.R1
+		part = B9.Control.RCS.Port.R1T
+		part = B9.Control.RCS.Tank.MT4
+		part = Kosmos.TKS.RD-0225.Engine
+		part = Kosmos.Salyut.RCS
+		part = Kosmos.TKS.RCS
+		part = KWrcsPod
+		part = TV Conformal Tank Long - RCS
+	}
+}
+NODE
+{
+	name = newnode_advancedAerospaceframes
+	PARTS
+	{
+		part = NP.coupler.125m.RadialFlange
+		part = NP.decoupler.radial.125m.Flange
+		part = LLLWing2L
+		part = NP.decoupler.radial.125m.Aero
+		part = DSM125mNoseCone
+		part = NP.fairings.PLFexpBOLT
+		part = NP.nosecone.125m
+		part = cone05ra
+		part = NP.nosecone.125m.CargoShell
+		part = NP.nosecone.125m.FuelTankCap
+		part = noseCone
+		part = NP.nosecone.125m.ParachuteAdapter
+		part = NP.nosecone.125m.small
+		part = NP.nosecone.125m.Tailcone
+		part = basepunta1ur5
+		part = standardNoseCone
+		part = RAPIER
+		part = top100a1ur5
+		part = top100a1ur5b
+		part = top500a1ur5
+		part = KzProcFairingBase1.25
+		part = KzProcFairingBaseRing1.25
+		part = RLA.s.nosecone
+		part = sh1
+		part = kmssh1
+		part = Kosmos.URM.1.25.Nose.Cone
+		part = Kosmos.URM.1.25.Nose.Cone.Decoupler
+		part = URM.1.25.P.Fairing.Base
+		part = KW1mNoseCone
+		part = KW1mExpandedFairingBase
+		part = KW1mFairingBase
+		part = KW12mExpandedFairingCone
+		part = KW1mExpandedFairingWall
+		part = KW1mFairingCone
+		part = KW1mFairingWall
+	}
+}
+NODE
+{
+	name = newnode_heavierAerospaceframes
+	PARTS
+	{
+		part = NP.fairings.3125m.25m.adapter
+		part = NP.fairings.3125m.Flange
+		part = NP.fairings.3125m.Half
+		part = CORE.PFC-304-2.fairing
+		part = NP.fairings.3125m.Nose
+		part = NP.fairings.3125m.Plate
+		part = CORE.PFC-404-1.fairing
+		part = NP.fairings.3125m.Qtr
+		part = NP.fairings.3125m.Wall
+		part = CORE.PFH-301-2.fairing
+		part = NP.fairings.375m.Nose
+		part = NP.fairings.375m.NoseCone
+		part = CORE.PFH-303-2.fairing
+		part = NP.fairings.375m.Wall
+		part = NP.fairings.375m.Wallshort
+		part = NP.fairings.375m.plate
+		part = CORE.PFH-402-2.fairing
+		part = NP.nosecone.25m.cargoshell
+		part = CORE.PFH-403-2.fairing
+		part = KzProcFairingBase3.75
+		part = KzProcFairingBaseRing3.75
+		part = KW3mNoseCone
+		part = KW3mExpandedFairingBase
+		part = KW3mFairingBase
+		part = KW3mExpandedFairingCone
+		part = KW3mExpandedFairingWall
+		part = KW3mFairingCone
+		part = KW3mFairingWall
+		part = TD.BlizzardNose
+		part = TD.BlizzardUpperSeg
+		part = TD.BlizzardTank
+		part = TD.ShuttleResourceFull
+	}
+}
+NODE
+{
+	name = newnode_heavyAerospaceframes
+	PARTS
+	{
+		part = NP.decoupler.radial.25m.Aero
+		part = NP.fairings.25m.Nose
+		part = 4x2EngineFairing
+		part = NP.fairings.25m.NoseCone
+		part = noseConeAdapter
+		part = NP.fairings.25m.Plate
+		part = 4x2EngineFairingEnd
+		part = NP.fairings.25m.Wall
+		part = NP.fairings.25m.Wallshort
+		part = conenoseram
+		part = NP.nosecone.25m
+		part = rocketNoseCone
+		part = basepuntv2r10
+		part = WR1RAPIER
+		part = t1000v4
+		part = t1500v4
+		part = t2000v4
+		part = t3000r20c
+		part = B9.Engine.VS1.Nosecone
+		part = CORE.PFC-203-2.fairing
+		part = CORE.PFH-201-2.fairing
+		part = CORE.PFH-203-2.fairing
+		part = KzProcFairingBase2.5
+		part = KzProcFairingBaseRing2.5
+		part = URM.2.5.P.Fairing.Base
+		part = URM.2.5.P.Fairing.Base.SSPP
+		part = KW2mSRBNoseCone
+		part = KW2mNoseCone
+		part = KW2mExpandedFairingBase
+		part = KW2mFairingBase
+		part = KW2mExpandedFairingCone
+		part = KW2mExpandedFairingWall
+		part = KW2mFairingCone
+		part = KW2mFairingWall
+	}
+}
+NODE
+{
+	name = newnode_compoundRocketry
+	PARTS
+	{
+		part = NP.decoupler.stack.125m.Hollow
+		part = NP.decoupler.stack.125m.Light
+		part = cl.small.escapeTower
+		part = NP.decoupler.stack.125m
+		part = sepMotor1
+		part = NP.decoupler.stack.125m.Mini
+		part = 1x1decoupler2
+		part = NP.LES.EscapeTower.Large
+		part = sep1a1ur5
+		part = structuralPylon
+		part = radialDecoupler
+		part = radialDecoupler2
+		part = ASDecoupler
+		part = stackDecoupler
+		part = stackSeparator
+		part = decoupvector
+		part = decouplersv05
+		part = decouplersvblack
+		part = LRDecoupler
+		part = B9.Engine.T2.SRBS
+		part = B9.Engine.T2A.SRBS
+		part = CORE.RRM-0A1-1
+		part = decoupler.ftr.small
+		part = Kosmos.URM.1.25.Srf.Decoupler
+		part = KW1mDecoupler
+		part = KW1mDecouplerShroud
+	}
+}
+NODE
+{
+	name = newnode_interstellarTechUHEPhysics
+	PARTS
+	{
+		part = WarpDrive
+		part = WarpDrive2
+		part = WarpDrive3
+	}
+}
+NODE
+{
+	name = newnode_interstellarTechAccelerator
+	PARTS
+	{
+		part = AntimatterCollector
+		part = AntimatterTank125
+		part = AntimatterTank250
+		part = AntimatterTank375
+	}
+}
+NODE
+{
+	name = newnode_interstellarTechAntimatterPower
+	PARTS
+	{
+		part = AntimatterReactor125
+		part = AntimatterReactor250
+		part = AntimatterReactor375
+		part = radiator2
+	}
+}
+NODE
+{
+	name = newnode_interstellarTechFusionPower
+	PARTS
+	{
+		part = NP.lfe.125m.NERVA.Inline
+		part = NP.lfe.25m.NERVA.Inline
+		part = radiator1
+		part = FusionReactor0625
+		part = FusionReactor125
+		part = vista
+		part = HexCanDeutTritLarge
+		part = HexCanHe3Large
+	}
+}
+NODE
+{
+	name = newnode_probeRockets
+	PARTS
+	{
+		part = NP.aux.125m.retropack
+		part = NP.aux.125m.smallsolid
+		part = cl.radial.sphereTankFuel
+		part = NP.aux.payloadassist
+		part = microEngine
+		part = NP.aux.radialspinbooster
+		part = cl.radial.sphereTankOxy
+		part = NP.aux.radialullagebooster
+		part = NP.aux.radialvernier
+		part = dest5Engine
+		part = NP.lft.625m.1m
+		part = SMP.liquidEngine2-2
+		part = radialEngineMini
+		part = SMP.liquidEngine3
+		part = SMP.solidBooster
+		part = enginelmodc
+		part = smallRadialEngine
+		part = miniFuelTank
+		part = microEngineex1sat
+		part = microEngineSE1
+		part = satpropt300FuelTank
+		part = RLA.s.highengine
+		part = tankminsond
+		part = RLA.s.lowengine
+		part = tanktoemv2
+		part = RLA.s.midengine
+		part = B9.Structure.StackSeparator.MSR
+		part = RLA.s.tank1
+		part = fuelLineSmall
+		part = RLA.s.tank2
+		part = RLA.s.tank3
+		part = RLA.s.tank4
+		part = stretchyTank05m
+	}
+}
+NODE
+{
+	name = newnode_jetPropulsion
+	PARTS
+	{
+		part = cockpitMk1Rocko
+		part = smallDropTank
+		part = SMP.airplaneTail
+		part = airplaneTail
+		part = SMP.JetEngine
+		part = SMP.MK1Fuselage
+		part = B9.Cockpit.MK1.Body.2m
+		part = SMP.structuralPylon
+		part = SMP.airScoop
+		part = Mark1Cockpit
+		part = JetEngine
+		part = HL.AirshipEnvelope
+		part = Mk1FuselageStructural
+		part = airScoop
+		part = crewSupportIntake
+		part = JetEngineSmall
+		part = DA Bonus Jet
+	}
+}
+NODE
+{
+	name = newnode_resourceDiscovery
+	PARTS
+	{
+		part = Magnetometer
+		part = HexCanKethane
+		part = kethane.highGain
+		part = kethane.kerbalBlender
+		part = kethane.tankExternal
+	}
+}
+NODE
+{
+	name = newnode_resourceProduction
+	PARTS
+	{
+		part = 2x1KethaneConverter
+		part = SmallAuger
+		part = ELRecycleBin
+		part = SmallSmelter
+		part = kethane.1m.converter
+		part = kethane.radialDrill
+		part = kethane.smallDrill
+	}
+}
+NODE
+{
+	name = newnode_largeResourceProduction
+	PARTS
+	{
+		part = FNRefinery
+		part = HOME2 Fuel generator
+		part = Auger
+		part = ELRecycleBin.Large
+		part = Smelter
+		part = kethane.2m.converter
+		part = kethane.heavyDrill
+	}
+}
+NODE
+{
+	name = newnode_liquidRockets
+	PARTS
+	{
+		part = SMP.fuelTank
+		part = liquidEngineMini
+		part = cl.radial.cylTankFuel
+		part = fuelTankSmallFlat
+		part = cl.radial.cylTankOxy
+		part = kb-fuel-breaker1
+		part = km-tank-bottom-1
+		part = km-tank-mid-1
+		part = km-tank-mid-small-1
+		part = km-tank-top-1
+		part = hc.booster
+	}
+}
+NODE
+{
+	name = newnode_spaceHabitation
+	PARTS
+	{
+		part = 2x1hulltest
+		part = ExOrbitalDock
+		part = PolyHab
+		part = IACBM.1.25m
+		part = PolyHab2
+		part = IACBM.2.5m
+		part = PolyRadar
+		part = KarmonyBulkhead
+		part = Windowsect
+		part = KarmonyEndRing
+		part = LLLWalkwayNEW
+		part = KarmonyHabModule
+		part = LLLGreenhouse
+		part = KarmonyHabModule.Adapter
+		part = LLLGreenhousemid
+		part = KarmonyNodeCover
+		part = LLLGreenhousesmall
+		part = KarmonyNodeCoverViewport
+		part = 2x1Hollowhouse
+		part = KarmonyNodeMkIII
+		part = 2x1Greenhouse
+		part = KarmonyNodeMkIII.Adapter
+		part = LLLExtendableActivityMod
+		part = KarmonySciModule
+		part = Cooling Grill
+		part = KarmonySciModule.Adapter
+		part = CoolingGrillLarge
+		part = KarmonyStorModule
+		part = LLLCentriHab
+		part = KarmonyStorModule.Adapter
+		part = Viewplat
+		part = KarmonyUtilModule
+		part = ViewplatSingle
+		part = KarmonyUtilModule.Adapter
+		part = WalkwayOLD
+		part = KarmonyWarehouseModule
+		part = Wincurve
+		part = KarmonyWarehouseModule.Adapter
+		part = WindLong
+		part = KirsDockingModule
+		part = WindPort
+		part = KuestAirlock
+		part = WindRadialLarge
+		part = KuestLegacyAirlock
+		part = WindRadial
+		part = stockring
+	}
+}
+NODE
+{
+	name = newnode_poleAntennas
+	PARTS
+	{
+		part = LLLCommPole2
+		part = Antennacomtec1
+		part = Antennaexpatvr2
+		part = RTLongAntenna2
+	}
+}
+NODE
+{
+	name = newnode_advPoleAntennas
+	PARTS
+	{
+		part = Commtow
+		part = Antennacomtec2
+		part = LLLCommPole
+		part = AntennaDF2
+		part = RTLongAntenna3
+	}
+}
+NODE
+{
+	name = newnode_longRangeDishAntennas
+	PARTS
+	{
+		part = commDish
+		part = LLLAttchDish
+		part = LLLRotDish
+	}
+}
+NODE
+{
+	name = newnode_plasmaThrust
+	PARTS
+	{
+		part = h2TankTinyRad
+		part = mpdt.small
+	}
+}
+NODE
+{
+	name = newnode_kerbolarVoltaics
+	PARTS
+	{
+		part = SMP.solarPanels1
+		part = solarPanels5
+		part = solarpaneles1
+		part = solarPanelsond1
+	}
+}
+NODE
+{
+	name = newnode_advKerbolarVoltaics
+	PARTS
+	{
+		part = solarpanels-modern01
+		part = solarpanels-modern02
+		part = solarPanels1
+		part = solarPanels2
+		part = solarPanels3
+		part = solarPanelsfa
+		part = solarPanels4
+		part = solarPanelsuncat1
+		part = solarPanelsfa2
+	}
+}
+NODE
+{
+	name = newnode_largeKerbolarVoltaics
+	PARTS
+	{
+		part = solarpanels-modern04
+		part = largeSolarPanel
+		part = Kosmos.Salyut.Solar.Array
+		part = Kosmos.Salyut.Solar.Array2
+		part = Kosmos.TKS.Solar.Array
+	}
+}
+NODE
+{
+	name = newnode_largerKerbolarVoltaics
+	PARTS
+	{
+		part = solarpanels-blanket01
+		part = solarpanels-modern03
+		part = Kosmos.Balka.PanelBlock1
+		part = Kosmos.Balka.PanelBlock1.Single
+	}
+}
+NODE
+{
+	name = newnode_veryLargerElectrics
+	PARTS
+	{
+		part = capacitorInlineMed
+		part = batteryBank
+		part = rtg
+		part = Brayton2
+		part = HexCanBatt
+		part = microwaveThermalEnergyReceiverL
+		part = phasedArray1
+		part = HexCanRTG
+		part = MMI Large Battery
+		part = KWRadBattLargeL
+		part = RLA.CSRG
+	}
+}
+NODE
+{
+	name = newnode_superLargeElectrics
+	PARTS
+	{
+		part = battery-inlinelarge
+		part = battery-inlinemed
+		part = battery-inlinesmall
+		part = batteryBankLarge
+		part = capacitorInlineLrg
+		part = HexCanBattLarge
+		part = G120-XL Generator
+		part = G60-M Generator
+	}
+}
+NODE
+{
+	name = newnode_heavyFission
+	PARTS
+	{
+		part = nuclearcontainer125
+		part = reactor10kw
+		part = LV-2N
+		part = NuclearReactor125
+		part = 1x1NucENG
+		part = ftmn160
+		part = cl.large.nuclearEngine
+	}
+}
+NODE
+{
+	name = newnode_noblePropulsion
+	PARTS
+	{
+		part = argonTank75
+		part = argonTankLrgRad
+		part = cl.small.xenonTank
+		part = ds4g
+		part = TriStrutXenon
+		part = pitLarge
+		part = vasimr-10
+		part = HexCanXenonLarge
+		part = engineIonMedium
+		part = IP-20 Medium Ion Engine
+		part = X240-L Xenon Tank
+		part = RLA.arcjet.med
+		part = RLA.ion.med
+		part = RLA.resistojet.med
+		part = RLA.xenonmed
+	}
+}
+NODE
+{
+	name = newnode_veryLargeNobleStorage
+	PARTS
+	{
+		part = argonTank100inline
+		part = xenonTank100radial
+		part = RLA.xenonmed2
+	}
+}
+NODE
+{
+	name = newnode_advancedAvantGarde
+	PARTS
+	{
+		part = NP.lfe.125m.AerospikeEngine
+		part = smallThermalRocketNozzle
+		part = 2x1RCKTENG
+		part = DSMSpherePod
+		part = LLLAerospike
+		part = HOME.radial.aerospike
+		part = 2x1x1fuel
+		part = DSMStrutRCS
+		part = 1x1noseconeflat
+		part = HexCanLBLarge
+		part = 1to125Adaptor
+		part = DSMStrutTank
+		part = 2x1EngineFairing
+		part = HexCanLFOLarge
+		part = 2x1EngineFairingEnd
+		part = TriStrutEngine
+		part = WindTriple
+		part = HexCanLFLarge
+		part = TriStrutRCS
+		part = RLA.linearspike.med
+		part = HexCanMonoLarge
+		part = TriStrutTank
+		part = HexCanOxyLarge
+		part = HexRackLarge
+		part = HexDecouplerRackLarge
+		part = LLLLOHRadi
+		part = 2x1EagleCrewPod
+		part = 1x1storagetankfuel
+		part = LLL2x1FuelSphere
+		part = MarkIVBuster
+		part = TAL.Toroidal.Tank.Medium.Fuel
+		part = TAL.Toroidal.Tank.Medium.Utility
+		part = TAL.Toroidal.Tank.Hub.Medium
+		part = HexCanOxygenLarge
+		part = HexCanDrinkingWaterLarge
+		part = HexCanFoodLarge
+		part = HexCanLifeSupportLarge
+	}
+}
+NODE
+{
+	name = newnode_heavyAvantGarde
+	PARTS
+	{
+		part = ThermalRocketNozzle
+		part = LLLAerospike2x1
+		part = GE.THSS.Octo.125x5
+		part = 2x2hull
+		part = 2x1fuel
+		part = OctoStrutMiniFuel
+		part = 2x1Bicoupler
+		part = 2x1noseconeflat
+		part = OctoStrutMiniRCS
+		part = 2to1Adaptor1
+		part = 2to1Adaptor2
+		part = GE.RCS.250.B
+		part = 2to25mCircAdaptor
+		part = MarkIIDroopy
+		part = 2x2to25m
+		part = GE.THSS.250.TriDouble
+		part = 2to1Adaptor
+		part = 2to2-5Adaptor
+		part = 2x1decoupler2
+		part = TAL.Small.HalfSpherical.Tank.Fuel
+		part = TAL.Small.HalfSpherical.Tank.V2.Fuel
+		part = TAL.Small.HalfSpherical.Tank.Utility
+		part = TAL.Small.HalfSpherical.Tank.V2.Utility
+		part = TAL.Small.Spherical.Tank.Fuel
+		part = TAL.Small.Spherical.Tank.V2.Fuel
+		part = TAL.Small.Spherical.Tank.Utility
+		part = TAL.Small.Spherical.Tank.V2.Utility
+		part = TAL.Toroidal.Tank.Large.Fuel
+		part = TAL.Toroidal.Tank.Large.Utility
+		part = TAL.Toroidal.Tank.Hub.Large
+	}
+}
+NODE
+{
+	name = newnode_generalAvantGarde
+	PARTS
+	{
+		part = toroidalAerospike
+		part = smallerThermalRocketNozzle
+		part = 2mToroidFuOx
+		part = 1x1fuel
+		part = HexCanLBNormal
+		part = 1x1xthirdfuel
+		part = TriStrutMiniTank
+		part = HexCanLFO
+		part = HexCanLF
+		part = HexCanMono
+		part = HexCanOxy
+		part = HexPod
+		part = HexRack
+		part = HexDecouplerRackNormal
+		part = HexCanOxygen
+		part = HexCanDrinkingWater
+		part = HexCanFood
+		part = HexCanLifeSupport
+	}
+}
+NODE
+{
+	name = newnode_heavierAvantGarde
+	PARTS
+	{
+		part = bigThermalRocketNozzle
+		part = FNMethaneTank3-1
+		part = 4x2RCSS
+		part = GE.THSS.Octo.250x2
+		part = 4x2SAS
+		part = km.se4L
+		part = 2x2fuel
+		part = OctoStrutFuel
+		part = Dual2x1fuel
+		part = 4x2fueltest
+		part = OctoStrutShortFuel
+		part = 4x2Weight
+		part = 4x2Bicoupler
+		part = 4to2x1Adaptorv1
+		part = 4to2x1Adaptorv2
+		part = 4x2noseconeflat
+		part = 4x4thirdfuel
+		part = 4to2Adaptor
+		part = 4x2decoupler2
+		part = TAL.Medium.HalfSpherical.Tank.Fuel
+		part = TAL.Medium.HalfSpherical.Tank.V2.Fuel
+		part = TAL.Medium.HalfSpherical.Tank.Utility
+		part = TAL.Medium.HalfSpherical.Tank.V2.Utility
+		part = TAL.Medium.Spherical.Tank.Fuel
+		part = TAL.Medium.Spherical.Tank.V2.Fuel
+		part = TAL.Medium.Spherical.Tank.Utility
+		part = TAL.Medium.Spherical.Tank.V2.Utility
+		part = TAL.XLarge.Toroidal.Tank.Fuel
+		part = TAL.XLarge.Toroidal.Tank.Utility
+		part = TAL.Toroidal.Tank.Hub.XLarge
+	}
+}
+NODE
+{
+	name = newnode_veryHeavyAvantGarde
+	PARTS
+	{
+		part = 4x4fuel
+		part = TAL.Large.HalfSpherical.Tank.Fuel
+		part = TAL.Large.HalfSpherical.Tank.V2.Fuel
+		part = TAL.Large.HalfSpherical.Tank.Utility
+		part = TAL.Large.HalfSpherical.Tank.V2.Utility
+		part = TAL.Large.Spherical.Tank.Fuel
+		part = TAL.Large.Spherical.Tank.V2.Fuel
+		part = TAL.Large.Spherical.Tank.Utility
+		part = TAL.Large.Spherical.Tank.V2.Utility
+	}
+}
+NODE
+{
+	name = newnode_orbitalStructures
+	PARTS
+	{
+		part = SMP.stationHub
+		part = dockingPort3
+		part = LLLHatchdoor
+		part = StnSciAttachOTron
+		part = CBM-A-XS
+		part = CBM-P-XS
+		part = Kosmos.Salyut.1.5.Propulsion.Unit
+		part = Kosmos.Balka.1.Tunnel
+		part = Kosmos.Balka.1.Skeleton
+		part = Kosmos.Berthing.Node.Hexaway
+		part = Kosmos.Berthing.Node.Single.Side
+		part = Kosmos.Salyut.1.5-1.Taper
+		part = Kosmos.Salyut.body.1.5
+		part = Kosmos.KCBS
+		part = TD.cargodockingPort2
+		part = TD.DockingExtender.Small
+	}
+}
+NODE
+{
+	name = newnode_elementalStructures
+	PARTS
+	{
+		part = goldenStrut
+		part = structuralIBeam1
+		part = LLL1x1building
+		part = structuralMiniNode
+		part = CubeStrut
+		part = structuralPanel1
+		part = LLL2x2building
+		part = trussAdapter
+		part = B9.Structure.R0.Railing
+		part = LLLSquare
+		part = CubeStrutSplitter
+		part = LLLTriangle
+		part = B9.Structure.R1.Railing
+		part = LLLTriangleRightangle
+		part = CubeStrutSplitterTube
+		part = LLLSquare4
+		part = B9.Structure.R2.Railing
+		part = LLLWeight05t
+		part = CubeStrutTunnel
+		part = LLLWeight01t
+		part = B9.Structure.P1.Surface.Half
+		part = OctoStrutAdaptron
+		part = B9.Structure.P2.Surface.Clear
+		part = OctoStrutMini
+		part = B9.Structure.P2.Surface.Half
+		part = OctoStrutShort
+		part = B9.Structure.P1.Surface
+		part = TriStrutAdaptron125
+		part = B9.Structure.P2.Surface
+		part = GE.THSS.HalfMeterBay
+		part = TriStrutCap
+		part = TriStrutMini
+		part = TriStrutMiniPanelSmall
+		part = TriStrutMiniPanelWide
+		part = TriStrutShort
+		part = TriStrutSplitter
+		part = GE.THSS.HMB.A
+		part = TAL.Cubic.Truss.Mini.0.5m
+		part = TAL.Cubic.Truss.Mini.1.5m
+		part = TAL.Cubic.Truss.Mini.5m
+		part = TAL.Cubic.Truss.Mini.1m
+		part = TriStrutMiniPanel
+		part = TAL.Cubic.Truss.Mini.2.5m
+		part = TriStrutShortPanel
+		part = TAL.Cubic.Truss.Mini.Adapter.Large
+		part = TAL.Cubic.Truss.Mini.Adapter.Long
+		part = TAL.Cubic.Truss.Mini.Adapter.Short
+		part = TAL.Cubic.Truss.Mini.Half
+		part = TAL.Cubic.Truss.Mini.Hub
+		part = TAL.Cubic.Truss.1m
+		part = TAL.Cubic.Truss.2m
+		part = TAL.Cubic.Truss.Adapter.Long
+		part = TAL.Cubic.Truss.Adapter.Short
+		part = TAL.Cubic.Truss.Half
+		part = TAL.Cubic.Truss.Hub
+	}
+}
+NODE
+{
+	name = newnode_heavyOrbitalStructures
+	PARTS
+	{
+		part = SMP.dockingPort1
+		part = SMP.dockingPortLateral
+		part = walkwayhub
+		part = stationHub
+		part = TriStrutTriDock
+		part = dockingPort2
+		part = Airlockdoors
+		part = B9.Adapter.Y1
+		part = LLLCBM
+		part = LLLCBMThin
+		part = CBM-A-S
+		part = LLLCBMAnim
+		part = CBM-P-S
+		part = Kosmos.Balka.1.Skeleton.RCS.Storage
+		part = Kosmos.Salyut.2-1.5.Taper
+		part = Kosmos.Salyut.body.2
+		part = Kosmos.APAS.69
+		part = SDHI.ParaDock.1.ClampOTron
+		part = SDHI.ParaDock.2.IACBM
+		part = TD.cargodockingPort1
+		part = TD.DockingExtender.Large
+	}
+}
+NODE
+{
+	name = newnode_heavierOrbitalStructures
+	PARTS
+	{
+		part = stationHubLarge
+		part = dockingPort1
+		part = dockingPortLarge
+		part = dockingPortLateral
+		part = CBM-A
+		part = CBM-P
+		part = Kosmos.Salyut.3-2.Taper
+		part = TriStrut250Dock
+		part = Kosmos.Salyut.body.3
+		part = TTC7MK3Dockingport
+		part = KW3mDockingRing
+	}
+}
+NODE
+{
+	name = newnode_smallRobotics
+	PARTS
+	{
+		part = DROMOMAN.lin.rotohub
+		part = AdjustableRailFourth
+		part = DROMOMAN.rad.rotohub
+		part = dockingwasher.jr
+		part = DROMOMAN.limb2m
+		part = dockingwasher.freejr
+		part = DROMOMAN.limb3m
+		part = GantrySmall
+		part = IR.Rotatronmk2
+		part = GantrySmallVariant
+		part = IRHingeClosedFourth
+		part = IRHingeOpenFourth
+		part = IRHingeTallFourth
+		part = IRHingeTallFourthND
+		part = IRPistonFourth
+		part = IR.RotatronFourth
+		part = TelescopeFourthA
+		part = TelescopeFourthB
+		part = TelescopeFourthC
+	}
+}
+NODE
+{
+	name = newnode_standardRobotics
+	PARTS
+	{
+		part = AdjustableRailHalf
+		part = dockingwasher.std
+		part = dockingwasher.free
+		part = Gantry
+		part = GantryVariant
+		part = IRHingeClosedHalf
+		part = IRHingeOpenHalf
+		part = IRHingeTallHalf
+		part = IRHingeTallHalfND
+		part = IRPistonHalf
+		part = IR.RotatronHalf
+		part = TelescopeHalfA
+		part = TelescopeHalfB
+		part = TelescopeHalfC
+	}
+}
+NODE
+{
+	name = newnode_largeRobotics
+	PARTS
+	{
+		part = AdjustableRail
+		part = dockingwasher.sr
+		part = dockingwasher.freesr
+		part = GantryLarge
+		part = GantryLargeVariant
+		part = IRHingeClosed
+		part = IR.HingeIndustrial
+		part = IRHingeOpen
+		part = IRHingeTall
+		part = IRHingeTallND
+		part = IRPiston
+		part = IR.Rotatron
+		part = IR.RotatronVTOL
+		part = TelescopeFullA
+		part = TelescopeFullB
+		part = TelescopeFullC
+	}
+}
+NODE
+{
+	name = newnode_resourceStorage
+	PARTS
+	{
+		part = 1x1Keth
+		part = HexCanMetal
+		part = HexCanMetalSmall
+		part = HexCanOre
+		part = HexCanOreSmall
+		part = HexCanRocketParts
+		part = HexCanRocketPartsSmall
+		part = HexCanKethaneSmall
+		part = kethane.tank1mLarge
+		part = kethane.tank1mStandard
+	}
+}
+NODE
+{
+	name = newnode_advResourceDiscovery
+	PARTS
+	{
+		part = OMD
+		part = kethane.sensor.1m
+	}
+}
+NODE
+{
+	name = newnode_largeResourceStorage
+	PARTS
+	{
+		part = 2x1Keth
+		part = HexCanMetalLarge
+		part = HexCanOreLarge
+		part = HexCanRocketPartsLarge
+		part = HexCanLFKethane
+		part = kethane.tank2mLarge
+		part = kethane.tank2mMedium
+		part = kethane.tank2mSmall
+	}
+}
+NODE
+{
+	name = newnode_largerResourceStorage
+	PARTS
+	{
+		part = HexCanMetalHuge
+		part = HexCanOreHuge
+		part = HexCanRocketPartsHuge
+		part = metalBin
+		part = oreBin
+		part = kethane.tank2mExtralarge
+		part = LLL2x1kethFuelSphere
+	}
+}
+NODE
+{
+	name = newnode_basicScienceTechnology
+	PARTS
+	{
+		part = samplebinsmall
+		part = radiator-10kW
+		part = sensorThermometer
+		part = RadialRadiatorzzz
+		part = Thermometermt1
+		part = kerbpro
+		part = ThermalFin
+	}
+}
+NODE
+{
+	name = newnode_atmosphericScienceTechnology
+	PARTS
+	{
+		part = sensorBarometer
+		part = FNGCMS
+		part = PAPBarometer
+	}
+}
+NODE
+{
+	name = newnode_planetaryScienceTechnology
+	PARTS
+	{
+		part = radiator-1mw
+		part = sensorAccelerometer
+		part = sensorGravimeter
+		part = circradiatorKT2
+		part = radiator0
+		part = AccelerometerFGA
+		part = DTMagnetometer
+		part = retinaGravimeter
+	}
+}
+NODE
+{
+	name = newnode_veryLargeHeatshields
+	PARTS
+	{
+		part = TriHeatShield5m
+		part = 3.75.Heatshield
+	}
+}
+NODE
+{
+	name = newnode_advWinching
+	PARTS
+	{
+		part = KAS.CPort1
+		part = KAS.Hook.GrapplingHook
+		part = KAS.Hook.Magnet
+		part = KAS.Winch2
+		part = KAS.Winch3
+		part = KAS.Winch4
+	}
+}
+NODE
+{
+	name = newnode_heavyIntegratedRocketry
+	PARTS
+	{
+		part = CORE.CSB-406-2
+		part = CORE.CSB-406-2L
+		part = CORE.DCM-4301-2
+		part = CORE.DCM-4401-1
+		part = CORE.IDM-4402-1
+		part = kb-fuel-breaker2
+		part = km.se3
+		part = km-tank-bottom-2
+		part = km-tank-mid-2
+		part = km-tank-mid-small-2
+		part = km-tank-top-2
+		part = km.smart.alt.low
+	}
+}
+NODE
+{
+	name = newnode_heavierIntegratedRocketry
+	PARTS
+	{
+		part = CORE.CSB-209-1
+		part = CORE.CSB-209-1L
+		part = bb1
+		part = km.bb2
+		part = kb-fuel-breaker3
+		part = km-tank-bottom-3
+		part = km-tank-mid-3
+		part = km-tank-mid-small-3
+		part = km-tank-top-3
+	}
+}
+NODE
+{
+	name = newnode_veryHeavyIntegratedRocketry
+	PARTS
+	{
+		part = CORE.CSB-412-2
+		part = CORE.CSB-412-2L
+	}
+}
+NODE
+{
+	name = newnode_advancedIntegratedRocketry
+	PARTS
+	{
+		part = Wayland.Freelancer.Pod
+		part = CORE.CSB-204-1
+		part = Wayland.Freelancer.PodArmy
+		part = CORE.CSB-204-1L
+		part = Wayland.Freelancer.PodRusted
+		part = CORE.DCM-2201-2
+		part = Wayland.FreelancerPodTank.1
+		part = CORE.DCM-2301-2
+		part = CORE.IDM-2202-2
+		part = Engineer7500
+		part = EngineerChipFlight
+		part = double-oms
+		part = kb-fuel-breaker15
+		part = oms
+		part = km.se0
+		part = se2
+		part = km-tank-bottom-15
+		part = km-tank-mid-15
+		part = km-tank-mid-small-15
+		part = km-tank-top-15
+		part = protractor.plain
+		part = protractor.tape
+		part = km.smart.time
+	}
+}
+NODE
+{
+	name = newnode_advancedCompoundRocketry
+	PARTS
+	{
+		part = NP.decoupler.stack.25m.Mini
+		part = decoupler1-2
+		part = 2x2decoupler2
+		part = radialDecoupler1-2
+		part = DSM25mDecoupler
+		part = stackSeparatorBig
+		part = decoupler.ftr.2M
+		part = DSM25mShortDecoupler
+		part = decoupler.ftr
+		part = DSMStrutDecoupler
+		part = KM.FuelController.OFF
+		part = TriStrutDecoupler
+		part = KM.FuelController.ON
+		part = Kosmos.VA.RRV.Escape.Unit
+		part = KW2mDecoupler
+		part = TD.BoosterSep
+		part = TD.BoosterSep1
+	}
+}
+NODE
+{
+	name = newnode_veryLongRangeDishAntenna
+	PARTS
+	{
+		part = LLLRotDish2-5
+		part = Dishmccomu
+		part = Dishomega2g
+		part = RTGigaDish1
+		part = RTGigaDish2
+		part = RTLongDish1
+		part = RTLongDish2
+	}
+}
+NODE
+{
+	name = newnode_b9S2Project1
+	PARTS
+	{
+		part = B9.Cockpit.S2
+		part = B9.Cockpit.S2.Adapter
+		part = B9.Cockpit.S2.Body.Fuel
+		part = B9.Cockpit.S2.Body
+		part = B9.Cockpit.S2.Body.Cargo.2m
+		part = B9.Cockpit.S2.Body.Crew
+		part = B9.Cockpit.S2.Body.Tail
+		part = B9.Cockpit.S2.Body.RCS
+		part = B9.Cockpit.S2.BodyLarge.Back
+		part = B9.Cockpit.S2.BodyLarge.Back.EngineMount2
+		part = B9.Cockpit.S2.BodyLarge.Cargo.2m
+		part = B9.Cockpit.S2.BodyLarge.Front2
+	}
+}
+NODE
+{
+	name = newnode_b9HLProject
+	PARTS
+	{
+		part = B9.Aero.HL.Adapter.Front
+		part = B9.Aero.HL.Body.LF.05m
+		part = B9.Aero.HL.Body.LFO.05m
+		part = B9.Aero.HL.Body.RCS.05m
+		part = B9.Aero.HL.Body.SAS.05m
+		part = B9.Aero.HL.Body.Structure.05m
+		part = B9.Aero.HL.Body.LF.2m
+		part = B9.Aero.HL.Body.LFO.2m
+		part = B9.Aero.HL.Body.RCS.2m
+		part = B9.Aero.HL.Body.Structure.2m
+		part = B9.Aero.HL.Body.Structure.6m
+		part = B9.Aero.HL.Body.Cargo.A
+		part = B9.Aero.HL.Body.Cargo.B
+		part = B9.Aero.HL.Body.Cargo.C
+		part = B9.Aero.HL.Body.Cargo.Tail.Narrow
+		part = B9.Aero.HL.Body.Cargo.Tail.Wide
+		part = B9.Aero.HL.Extension.A
+		part = B9.Aero.HL.Extension.B1
+		part = B9.Aero.HL.Extension.B2.LF
+		part = B9.Aero.HL.Extension.B3.LFO
+		part = B9.Aero.HL.Extension.B4.RCS
+		part = B9.Aero.HL.Extension.C
+	}
+}
+NODE
+{
+	name = newnode_b9M2Project
+	PARTS
+	{
+		part = B9.Cargo.M2.Adapter
+		part = B9.Cargo.M2.Separator
+		part = B9.Cargo.M2.Body.B
+		part = B9.Cargo.M2.Body
+		part = B9.Cockpit.MK2
+		part = B9.Cockpit.MK2.Adapter
+		part = B9.Cockpit.MK2.Adapter.M125
+		part = B9.Cockpit.MK2.Adapter.M125.2
+		part = B9.Cockpit.MK2.Bicoupler
+		part = B9.Cockpit.MK2.Body.RCS.05m
+		part = B9.Cockpit.MK2.Control.SAS
+		part = B9.Cockpit.MK2.Body.Fuel.2m
+		part = B9.Cockpit.MK2.Body.LFO.2m
+		part = B9.Cockpit.MK2.Body.2m
+		part = B9.Cockpit.MK2.Body.Cargo.2m
+		part = B9.Cockpit.MK2.Body.Fuel.5m
+		part = B9.Cockpit.MK2.Body.LFO.5m
+		part = B9.Cockpit.MK2.Body.5m
+		part = B9.Cockpit.MK2.Body.Cargo.5m
+		part = B9.Cockpit.MK2.Tail
+		part = B9.Cockpit.MK2.Tail.2
+		part = B9.Cockpit.MK2.Nosecone
+	}
+}
+NODE
+{
+	name = newnode_b9S2Project2
+	PARTS
+	{
+		part = B9.Cockpit.S2.Body.LFO
+		part = B9.Cockpit.S2.Body.6m
+		part = B9.Cockpit.S2.Body.Cargo.6m
+		part = B9.Cockpit.S2.Body.Crew.6m
+		part = B9.Cockpit.S2.Body.Tail.2
+		part = B9.Cockpit.S2.BodyLarge.Fuel
+		part = B9.Cockpit.S2.BodyLarge.LFO
+		part = B9.Cockpit.S2.BodyLarge
+		part = B9.Cockpit.S2.BodyLarge.Back.LFO
+		part = B9.Cockpit.S2.BodyLarge.Back.EngineMount1.LFO
+		part = B9.Cockpit.S2.BodyLarge.Back.EngineMount1
+		part = B9.Cockpit.S2.BodyLarge.Back.EngineMount2.LFO
+		part = B9.Cockpit.S2.BodyLarge.Cargo.6m
+		part = B9.Cockpit.S2.BodyLarge.Front
+		part = B9.Cockpit.S2.BodyLarge.Front2.LFO
+	}
+}
+NODE
+{
+	name = newnode_tiberdyneShuttleProject
+	PARTS
+	{
+		part = TD.ShuttleWingBigR
+		part = TD.ShuttleWingBigL
+		part = TD.C7ShuttleFin
+		part = TD.ShuttleTankRCS
+		part = TD.EngineMountBuran
+		part = TD.EngineMountShuttle
+		part = TD.ShuttleNoseUnitSmall
+		part = TD.ShuttleWingTankR
+		part = TD.ShuttleWingTankL
+		part = TD.ShuttleWingBigCanard
+		part = TD.ShuttleElevBigr
+		part = TD.ShuttleElevBigl
+		part = TD.ShuttleResourceHalf
+		part = TD.ShuttleCargoBayMk3Alt
+		part = TD.ShuttleCargoBayMk3
+		part = TD.ShuttleCockpit
+		part = TD.ShuttleNoseUnit
+		part = TD.RadialCargoDecoupler
+		part = TD.CargobayStackDecoupler
+		part = TD.EngineBuranOMS
+	}
+}
+NODE
+{
+	name = newnode_tiberdyneBoosterProject
+	PARTS
+	{
+		part = TD.JupiterTankBase
+		part = TD.JupiterTank
+		part = TD.JupiterTankHalf
+		part = TD.JupiterUpperSeg
+		part = TD.JupiterNose
+		part = TD.JupiterAdapt
+		part = TD.ZenithBoosterRadial
+		part = TD.ZenithBooster
+		part = TD.JupiterEngineMount
+		part = TD.JupiterEngine
+		part = TD.BlizzardEngineMount
+		part = TD.BlizzardEngine
+		part = TD.JupiterSRB4
+		part = TD.JupiterSRB5
+		part = TD.JupiterSRBAdapt
+		part = TD.JupiterSRBNose
+		part = TD.JupiterSSME
+		part = TD.ShuttleDecoupler
+		part = TD.SBSDecoupler
+		part = TD.BlizzardEngine4x
+	}
+}
+NODE
+{
+	name = newnode_ares1Project
+	PARTS
+	{
+		part = Ares.2stage.decoupler
+		part = Ares.SRB.Avionic
+		part = Ares12stage
+		part = Ares1.2stage.oxidizertank
+		part = Ares1.J2-X
+		part = Ares1.SRB
+		part = Ares.SRB.Nose.Cone
+	}
+}
+NODE
+{
+	name = newnode_ares5Project
+	PARTS
+	{
+		part = AresV.2stage.decoupler
+		part = AresV.3stage.fueltank
+		part = AresV.payloadbase
+		part = AresV.payload.shroud
+		part = AresV.2stage
+		part = AresV.J2-X.engine 
+	}
+}
+NODE
+{
+	name = newnode_orionProject
+	PARTS
+	{
+		part = Orion.Circularpanel
+		part = Orion.DockingPort
+		part = Orion.InstrumentServise.Module
+		part = Orion.LES
+		part = Orion.Pod
+	}
+}
+NODE
+{
+	name = newnode_falcon1Project
+	PARTS
+	{
+		part = FalconLowerGear
+		part = FalconMiddleGear
+		part = LazTekFalconPayloadBay
+		part = FalconRadialDecoupler
+		part = LazTekFalconRemoteControl
+		part = LazTekFalcon9ASASBase
+		part = LazTekFalconSatCapture
+		part = LazTekFalcon9UpperTank
+		part = LazTekMerlin1dVacuumEngine
+		part = LazTekSeparationEngine
+		part = LazTekSHERPA
+		part = LazTekSHERPATank
+		part = LazTekSPSDecoupler
+	}
+}
+NODE
+{
+	name = newnode_buranProject
+	PARTS
+	{
+		part = Buran.DockPort
+		part = Buran.Avionic
+		part = Buran.cargo.section1
+		part = Buran.cargo.section2
+		part = Buran.cargodoors
+		part = Buran.Crew
+		part = Buran.Engine
+		part = Buran.JetEngine
+		part = Buran.controlSurfL
+		part = Buran.Lwing
+		part = Buran.energia.Maindecoupler
+		part = Buran.Parachute
+		part = Buran.RCS
+		part = Buran.controlSurfR
+		part = Buran.Rwing
+		part = Buran.Tail.controlSurf
+		part = Buran.Tail
+	}
+}
+NODE
+{
+	name = newnode_kliperProject
+	PARTS
+	{
+		part = Kliper.InstrumentServiseModule
+		part = Kliper.LES
+		part = Kliper.L.wing
+		part = Kliper.pod
+		part = Kliper.RCScone
+		part = Kliper.Rwing
+		part = Kliper.wing
+		part = Kliper.Aileron
+	}
+}
+NODE
+{
+	name = newnode_falcon9Project
+	PARTS
+	{
+		part = LazTekFalcon9PanelDecoupler
+		part = LazTekFalcon9InterstageFairing
+		part = LazTekFalcon9MainTank
+		part = LazTekFalcon9EngineCenter
+		part = LazTekFalcon9EngineCluster
+	}
+}
+NODE
+{
+	name = newnode_protonProject
+	PARTS
+	{
+		part = Proton.1/2.stage.decoupler
+		part = Proton.2/3.stage.decoupler
+		part = Proton.Core.Oxidizer.Tank
+		part = Proton.payload
+		part = Proton.payload.decoupler
+		part = Proton.retro.booster
+		part = Proton.Second.Stage
+		part = Proton.Third.Stage
+	}
+}
+NODE
+{
+	name = newnode_mirProject
+	PARTS
+	{
+		part = ISS.FGB
+		part = Mir.Core.Module
+		part = Mir.Solar.Panel
+		part = Mir.Core.TopSolarPanel
+		part = Kvant.1
+		part = Kvant.1.Solar.Panel
+		part = Mir.RCS.ThrusterBlock
+		part = Mir.DockingPortDrogue
+		part = Mir.DockingPortCoverCap
+		part = Mir.DockingPortProbe
+		part = Mir.Kristall
+		part = Mir.Kvant.2
+		part = Mir.Priroda
+		part = Mir.Spektr
+	}
+}
+NODE
+{
+	name = newnode_soyuzProject
+	PARTS
+	{
+		part = Soyuz.decoupler
+		part = Soyuz.Descent.Module
+		part = Soyuz.Docking.mechanism
+		part = Soyuz.Heatshield
+		part = Soyuz.InstrumentServiceModule
+		part = Soyuz.Orbital.module
+		part = Soyuz.Main.Parachute
+		part = Soyuz.U.Progress.Shroud
+		part = Soyuz.Solar.Panel
+	}
+}
+NODE
+{
+	name = newnode_waylandProjects
+	PARTS
+	{
+	}
+}
+NODE
+{
+	name = newnode_dragonProject
+	PARTS
+	{
+		part = LazTekDragon2
+		part = LazTekDragonChute
+		part = LazTekDragon2Dock
+		part = Dragon2NoseCone
+		part = LazTekSolarPanelCover
+		part = LazTekDragonSolarPanels
+		part = DragonSteps
+		part = LazTekDragonTrunk
+		part = LazTekSuperDracoNacelle
+	}
+}
+NODE
+{
+	name = newnode_falconHeavyProject
+	PARTS
+	{
+		part = LazTekFalconHeavyExpandedFairing
+		part = LazTekFalconHeavyFairingBase
+		part = LazTekFalconHeavyInterstageFairing
+		part = FalconHeavyNoseCone
+	}
+}
+NODE
+{
+	name = newnode_waylandPegasusProject
+	PARTS
+	{
+		part = Wayland.PegasusX2.BATLeft
+		part = Wayland.PegasusX2.BATRight
+		part = Wayland.PegasusX2.Nosefin
+		part = Wayland.PegasusX2.STLeft
+		part = Wayland.PegasusX2.STRight
+		part = Wayland.PegasusX2.TailfinLg
+		part = Wayland.PegasusX2.TailfinSm
+		part = Wayland.PegasusX2.CockpitMK3
+		part = Wayland.PegasusX2.BoosterMK2
+		part = Wayland.PegasusX2.ENGL
+		part = Wayland.PegasusX2.ENGLsm
+		part = Wayland.PegasusX2.ENGR
+		part = Wayland.PegasusX2.ENGRsm
+		part = Wayland.PegasusX2.RapierMK1
+		part = Wayland.PegasusX2.VTOL
+		part = Wayland.PegasusX2.RCS
+		part = Wayland.PegasusX2.RearTank
+		part = Wayland.PegasusX2.TankMK1
+		part = Wayland.PegasusX2.TankMK2
+		part = Wayland.PegasusX2.TankMK3
+		part = Wayland.PegasusX2.TankMK4
+		part = PX2.LandingBay
+		part = Wayland.Alpha.launchpad
+		part = Wayland.PegasusX2.Airbrake
+		part = Wayland.PegasusX2.ASAS
+		part = Wayland.PegasusX2.PodLeg
+		part = Wayland.PegasusX2.RCSLinear
+		part = Wayland.PegasusX2.SAS
+	}
+}
+NODE
+{
+	name = newnode_waylandEagleProject
+	PARTS
+	{
+		part = Wayland.Eagle.PodMK2
+		part = Wayland.Eagle.ASAS
+		part = Wayland.Eagle.EngineMK2
+		part = Wayland.Eagle.EngineMK3
+		part = Wayland.Eagle.RCSBlock
+		part = Wayland.Eagle.VTOL
+		part = Wayland.Eagle.VTOLMK3
+		part = Wayland.Eagle.TrussTankMK2
+		part = Wayland.Eagle.TrussTankMK3
+		part = Wayland.Eagle.LandingBayL.MK2
+		part = Wayland.Eagle.LandingBayR.MK2
+	}
+}
+NODE
+{
+	name = newnode_waylandEGGProject
+	PARTS
+	{
+		part = waylandeggpod
+		part = waylandeggbooster
+		part = Wayland.egg.RCSLinear
+		part = eggRCSTank
+		part = waylandeggtank
+		part = wayandEggdecouple
+		part = waylandeggASAS
+	}
+}
+NODE
+{
+	name = newnode_waylandWT51Project
+	PARTS
+	{
+		part = Wayland.WT51.AirIntake
+		part = Wayland.WT51.CargoPod3
+		part = Wayland.WT51.CockpitCargo
+		part = Wayland.WT51.HEXRCS12
+		part = Wayland.WT51.HEXRCS
+		part = Wayland.WT51.LiquidEng
+		part = Wayland.WT51.TripleLiquidEng
+		part = Wayland.WT51.VTOL
+		part = Wayland.WT51.VTOL2
+		part = Wayland.WT51.FrontFuelTank
+		part = Wayland.WT51.FuelTank2
+		part = Wayland.WT51.FuelTank3
+		part = Wayland.WT51.ASAS
+		part = Wayland.WT51.LandingLegs
+	}
+}
+NODE
+{
+	name = newnode_waylandMSIProject
+	PARTS
+	{
+		part = Wayland.MSI.Pod
+		part = Wayland.MSI.Engine2
+		part = parachuteSingle2
+		part = Wayland.ArachLegs3
+		part = Wayland.MSI.ASAS
+	}
+}
+NODE
+{
+	name = newnode_n1Project
+	PARTS
+	{
+		part = N1.BlockA
+		part = N1.BlockB
+		part = BlockB.decoupler
+		part = Block.D
+		part = BlockD.decoupler
+		part = BlockG.decoupler
+		part = N1.BlockV
+		part = BlockV.decoupler
+		part = Block.G
+		part = N1.Payload.decoupler
+		part = L3.Shroud
+		part = L3.LES
+		part = L3.LES.separation
+	}
+}
+NODE
+{
+	name = newnode_LRVProject
+	PARTS
+	{
+		part = LRV.Pod
+		part = LRV.Wheel
+		part = LRV.Wheel2
+	}
+}
+NODE
+{
+	name = newnode_LERProject
+	PARTS
+	{
+		part = LER.roverBody
+		part = LER.DockPort
+		part = LER.Pod
+		part = LER.Wheel
+	}
+}
+NODE
+{
+	name = newnode_lunokhodProject
+	PARTS
+	{
+		part = Lunokhod1
+		part = Lunokhod1.solar
+		part = Lunokhod1.wheel
+	}
+}
+NODE
+{
+	name = newnode_LKProject
+	PARTS
+	{
+		part = LK.descent.module
+		part = Soyuz.LK.Pod
+	}
+}
+NODE
+{
+	name = newnode_soyuzTMAProject
+	PARTS
+	{
+		part = Soyuz.TMA.decoupler
+		part = Soyuz.TMA.Descent.Module
+		part = Soyuz.TMA.Dockingmechanism
+		part = Soyuz.TMA.InstrumentServiseModule
+		part = Soyuz.TMA.Orbital.module
+		part = Soyuz.TMA.Main.Parachute
+	}
+}
+NODE
+{
+	name = newnode_soyuzLOKProject
+	PARTS
+	{
+		part = LOK.InstrumentServiseModule
+		part = LOK.Dockingmechanism
+		part = LOK.Orbitalmodule
+		part = LOK.DescentModule
+		part = LOK.Parachute
+	}
+}
+NODE
+{
+	name = newnode_soyuzUProject
+	PARTS
+	{
+		part = Soyuz.2M.payload.decoupler
+		part = Soyuz.2M.payload
+		part = Soyuz.2M.payload.top
+		part = Soyuz.RCS.Block
+		part = SoyuzU.First.stage.lateral.booster
+		part = Soyuz.U.LES
+		part = SoyuzU.Second.stage
+		part = SoyuzU.third.stage.decoupler
+		part = SoyuzU.third.stage
+	}
+}
+NODE
+{
+	name = newnode_soyuzProgressProject
+	PARTS
+	{
+		part = Progress.unmannedModule
+		part = Progress.Orbitalmodule
+		part = SoyuzST.payload.decoupler
+		part = SoyuzST.Fregat
+		part = SoyuzST.Shroud
+	}
+}
+NODE
+{
+	name = newnode_altairProject
+	PARTS
+	{
+		part = Altairdescentstage
+		part = AltairDockingPort
+		part = AltairlanderPod
+		part = Altaircargoplatform
+	}
+}
+NODE
+{
+	name = newnode_energiaProject
+	PARTS
+	{
+		part = Energia.first.stage
+		part = Energia.second.stage
+	}
+}
+NODE
+{
+	name = newnode_odinProject
+	PARTS
+	{
+		part = NP.OdinCapsule
+		part = NP.OdinTeleLeg
+		part = NP.OdinFlightPack
+		part = NP.Odin.Trunk
+		part = NP.YMASasModule
+	}
+}
+NODE
+{
+	name = newnode_thorProject
+	PARTS
+	{
+		part = NP.ThorAscentPackage
+		part = NP.ThorDescentPackage
+		part = NP.ThorLEMASAS
+		part = NP.ThorLEMdecoupler
+		part = NP.ThorLEMCapsule
+		part = NP.ThorLanderRCS
+		part = NP.ThorLanderRCST
+		part = NP.ThorLanderstrut
+		part = NP.ThorLanderstrut2
+	}
+}
+NODE
+{
+	name = newnode_kuarqResearch
+	PARTS
+	{
+		part = stationExper3
+		part = stationExper4
+		part = StnSciExperiment3
+		part = StnSciExperiment4
+	}
+}
+NODE
+{
+	name = newnode_advKuarqResearch
+	PARTS
+	{
+		part = stationExper6
+		part = StnSciExperiment6
+	}
+}
+NODE
+{
+	name = node8_nanolathing
+	PARTS
+	{
+		part = NP.zmisc.Heavierstrut
+		part = strutConnectorHeavy
+		part = strutConnectorMedium
+		part = stretchyTank4m
+		part = stretchyTankSuper
+	}
+}
+NODE
+{
+	name = node8_automation
+	PARTS
+	{
+		part = mumech.MJ2.Pod
+	}
+}
+NODE
+{
+	name = node8_robotics
+	PARTS
+	{
+		part = DROMOMAN.rotact
+		part = DROMOMAN.hublet
+		part = DROMOMAN.limb075m
+		part = Buran Manipulator
+		part = ISS CanadArm2
+	}
+}
+NODE
+{
+	name = node8_experimentalMotors
+	PARTS
+	{
+		part = roverWheel3
+		part = wheelMedLLL
+		part = 4x2WhHousing
+		part = LLLBuggyNoAxles
+		part = 2x1TrkHousing1
+		part = Wayland.RV6.RoverWheel
+		part = 2x1TrkHousing2
+		part = roverWheel1Turbo
+	}
+}
+NODE
+{
+	name = node8_experimentalScience
+	PARTS
+	{
+		part = ltssupplycontainer
+		part = radiator-50kW
+		part = GooExperiment
+		part = Scoop-O-Matic
+		part = stationExper1
+		part = scienceLab
+		part = Telescope
+		part = StnSciExperiment1
+		part = circradiatorKT
+		part = tarsierSpaceTelescope
+		part = FNLCMS
+	}
+}
+NODE
+{
+	name = node8_experimentalAerodynamics
+	PARTS
+	{
+		part = wingConnector
+		part = structuralWing
+		part = B9.Aero.Wing.HW21
+		part = B9.Aero.Wing.SH.A35.4m
+		part = B9.Aero.Wing.SH.A45.4m
+		part = B9.Aero.Wing.SH.S.2m
+		part = B9.Aero.Wing.SH.S.4m
+		part = B9.Aero.Wing.SW.Wingtip.4x7m
+		part = ProceduralwingBac9
+		part = sweptWing5
+		part = sweptWing6
+	}
+}
+NODE
+{
+	name = node8_experimentalElectrics
+	PARTS
+	{
+		part = Brayton3
+		part = LLLGenerator
+		part = DSMBattery
+		part = HexCanRTGLarge
+		part = kethane.generator
+		part = RLA.ASRG
+	}
+}
+NODE
+{
+	name = node8_aerospaceTech
+	PARTS
+	{
+		part = DeathStarBattery
+		part = B9.Cockpit.S3
+	}
+}
+NODE
+{
+	name = node8_experimentalRocketry
+	PARTS
+	{
+		part = NP.interstage.375m.5m.SAS
+		part = NP.interstage.375m.5m.tank
+		part = 6x2fueltest
+		part = NP.interstage.5m.375m.plate
+		part = CORE.DCM-4501-2
+		part = NP.decoupler.stack.5m
+		part = NP.lfe.5m.Bearcat5x
+		part = CORE.PFC-504-1.fairing
+		part = NP.lfe.5m.TheMatriarch
+		part = NP.fairings.5m.Nose
+		part = CORE.PFH-502-2.fairing
+		part = NP.fairings5m.NoseCone
+		part = NP.fairings.5m.Wall
+		part = NP.fairings.5m.Wallshort
+		part = CORE.PFH-503-2.fairing
+		part = NP.fairings.5m.plate
+		part = NP.lft.500m.12m
+		part = KzProcFairingBase5
+		part = NP.lft.5.0m.3m
+		part = NP.lft.5.0m.6m
+		part = KzProcFairingBaseRing5
+		part = NP.sas.500m
+		part = thunder128
+		part = KW3mengineGriffonXX
+		part = thunder64
+		part = KW3mtankL4
+		part = KW3mtankL4ALT
+		part = KW3Sidetank
+		part = stretchyTankSuperService
+		part = stretchyTankSuper.MFT.Cryo
+		part = stretchyTankSuper.MFT.BalloonCryo
+		part = stretchyTankSuperBalloon
+		part = stretchyConicTank
+		part = stretchyTank05mReal
+		part = stretchyTank2mReal
+		part = stretchyTank3mReal
+		part = stretchyTank4mReal
+		part = stretchyTankSRB
+		part = stretchyTankSRBUpper
+	}
+}
+NODE
+{
+	name = node6_advAerodynamics
+	PARTS
+	{
+		part = wingFin
+		part = LargesweptWing
+		part = sweptWing
+		part = B9.Aero.Wing.SW.Winglet.2-3x1-6m
+		part = sweptWing2
+		part = tailfin2
+	}
+}
+NODE
+{
+	name = node7_advScienceTech
+	PARTS
+	{
+		part = avionicsNoseCone
+		part = LLLCircuit
+		part = B9.Cockpit.MK2.Nosecone.Science
+		part = B9.Control.ASAS
+	}
+}
+NODE
+{
+	name = node7_advUnmanned
+	PARTS
+	{
+		part = NP.Capsule.Unmanned
+		part = probeStackLarge
+		part = 4x2Probe
+		part = computerCore
+		part = TriStrutProbe
+		part = BERTY
+		part = explonpod
+		part = BERTYJEB
+		part = BERTY3
+		part = UAEcubplate
+		part = basef1sond
+		part = B9.Cockpit.D25
+		part = B9.Cockpit.MK1.Control.ACU
+		part = CORE.SMRT-04
+		part = HexProbe
+		part = TD.ShuttleNoseUnitMJ
+		part = TD.ShuttleNoseUnitSmallMJ
+		part = DA BallShark
+	}
+}
+NODE
+{
+	name = node7_specializedElectrics
+	PARTS
+	{
+		part = capacitorRadial02
+		part = Brayton1
+		part = LLLBatRad
+		part = tinyBrayton
+		part = TacFuelCell
+		part = microwaveThermalEnergyReceiverM
+		part = LLLGeneratorSmall
+		part = B9.Utility.Light.A8.White
+		part = LLLTurbine
+		part = KWRadBattLargeS
+		part = radr
+		part = HexCanRTGSmall
+		part = RLA.mmrtg
+	}
+}
+NODE
+{
+	name = node7_largeprobes
+	PARTS
+	{
+		part = ionEngine
+		part = xenonTank
+		part = HexCanXenon
+		part = IP-15 Radial Ion Engine
+		part = X30 Xenon Radial Tank
+		part = RLA.arcjet.micro
+		part = RLA.ion.micro.r
+		part = RLA.resistojet.micro.r
+		part = RLA.xenonsmall2
+	}
+}
+NODE
+{
+	name = node7_hypersonicFlight
+	PARTS
+	{
+		part = B9.Aero.Intake.DSI
+		part = B9.Engine.Jet.Turbojet
+		part = B9.Engine.SABRE.S.Body
+		part = B9.Engine.SABRE.Intake.S
+		part = B9.Engine.SABRE.S
+		part = B9.Engine.VA1
+		part = B9.Engine.VA1.Intake
+		part = Hex.ShockWedge
+		part = HL.AirshipEnvelope.Cirrus
+		part = HL.AirshipEnvelope.Cirrus.Real
+		part = TD.EngineBearcubJet
+		part = TD.EngineMountRadial
+		part = TTmk4-3FuselageAdapter
+		part = mk4FrontFuselageDoor
+		part = mk4FuselageDoor
+		part = TTmk4Fuselage
+		part = B9.Aero.HL.Adapter.MK4
+		part = TTMK4engine
+		part = TTmk4Cargoretainer
+	}
+}
+NODE
+{
+	name = node7_advancedMotors
+	PARTS
+	{
+		part = roverWheel1
+		part = 2x1Truckbed
+		part = 2x1Cargobed
+		part = 2x1WhHousing
+		part = Wayland.RV7MM.RoverWheel
+		part = LLLBuggy
+	}
+}
+NODE
+{
+	name = node6_advMetalWorks
+	PARTS
+	{
+		part = NP.couplerp.375m.5x125m.Plate
+		part = NP.couplerp.375m.5x125m.Plate.slim
+		part = MkVHogLarge
+		part = NP.couplerp.375m.7x125m.Plate
+		part = MKVII4x2Cockpit
+		part = NP.interstage.25m.375m.tank
+		part = B9.Adapter.LM3
+		part = NP.interstage.375m.25m.plate
+		part = NP.decoupler.stack.375m
+		part = Wayland.HyperRing
+		part = NP.fairings.3125m.375m.adapter
+		part = couplerQuadL
+		part = thunderBiQuatro
+		part = B9.Adapter.SM3
+		part = thunderRockoAdapter
+		part = crewCabin
+		part = decoupler.ftr.4m
+		part = Munox Aft Jumbo Cargo Hold and Passenger Compartment
+		part = Munox Jumbo Cap Connector
+		part = KWadapter3x2
+		part = KW3mDecoupler
+		part = KW3mDecouplerShroud
+		part = KWFlatadapter3x1
+		part = KWFlatadapter3x2
+		part = KWFuelAdapter3x1
+		part = KWFuelAdapter3x1S
+		part = KWFuelAdapter3x2
+		part = KWFuelAdapter3x2S
+	}
+}
+NODE
+{
+	name = node6_largeControl
+	PARTS
+	{
+		part = NP.zmisc.heavywinglet
+		part = cl.large.sasModule
+		part = B9.Aero.Wing.ControlSurface.SE.4m
+		part = B9.Aero.Wing.ControlSurface.SH.4m
+		part = B9.Aero.Wing.ControlSurface.T.4m
+		part = B9.Aero.Wing.SW.Canard.6x5m
+		part = B9.Aero.Wing.SW.Winglet.6x5m
+		part = B9.Cockpit.S2.Control.SAS
+		part = pCtrlSrf1
+		part = winglet3-2
+	}
+}
+NODE
+{
+	name = node6_unmannedTech
+	PARTS
+	{
+		part = probeCoreCube
+		part = probeCoreHex
+		part = 2x1Probe
+		part = probeCoreOcto
+		part = TriStrutNanoProbe
+		part = probeCoreOcto2
+		part = probeStackSmall
+		part = investpod
+		part = Maxurpod
+		part = neptuno
+		part = novapod
+		part = sondex2pod
+		part = torpod
+		part = baseinstrul8
+		part = CORE.SMRT-02
+		part = HexProbeSmall
+		part = Pictozoom 2000
+	}
+}
+NODE
+{
+	name = node6_highAltitudeFlight
+	PARTS
+	{
+		part = avionicsNoseConeB
+		part = SMP.mk2RocketFuselage
+		part = LLLIntake
+		part = SMP.mk2RocketSpacePlaneAdapter
+		part = Mark2Cockpit
+		part = SMP.nacelleBody
+		part = EmberCockpit
+		part = SMP.radialEngineBody
+		part = B9.Aero.Intake.CLR
+		part = turboFanEngine
+		part = mk2Fuselage
+		part = 2x1RADJETENG
+		part = CircularIntake
+		part = 2x1Jetfuel
+		part = radial.atmospheric.scoop1
+		part = B9.Aero.T2.Tail
+		part = LLLExtractFan
+		part = B9.Cockpit.MK1.Body.Fuel.2m
+		part = RLA.radialjet
+		part = B9.Cockpit.MK1.Control.SAS
+		part = B9.Cockpit.MK1.Tail
+		part = B9.Engine.Jet.Pod.Small
+		part = B9.Engine.Jet.Pod.Small.PylonR
+		part = B9.Engine.Jet.Pod.Small.PylonS
+		part = HL.AirshipEnvelope.Octo
+		part = kethane.turbine
+		part = km.flameout.checker.AG8
+		part = VNG.XE.EjectionModule
+	}
+}
+NODE
+{
+	name = node6_electronics
+	PARTS
+	{
+		part = mumech.MJ2.AR202
+		part = probeCoreSphere
+		part = scienceHardDriveLarge
+		part = ISA.GPS
+		part = LLLMicrochip
+		part = RTShortAntenna1
+	}
+}
+NODE
+{
+	name = node6_largeElectrics
+	PARTS
+	{
+		part = capacitorInlineMini
+		part = ksp.r.largeBatteryPack
+		part = microwaveReceiver
+		part = microwaveThermalEnergyReceiverS
+		part = B9.Utility.Light.A4.White
+		part = microwaveTransmitter
+		part = TacWaterSplitter
+		part = MMI Battery
+	}
+}
+NODE
+{
+	name = node5_supersonicFlight
+	PARTS
+	{
+		part = squareAir
+		part = intakesuperRam
+		part = LLLIntakeSmall
+		part = mark3Cockpit
+		part = mk3Fuselage
+		part = nacelleBody
+		part = B9.Aero.Intake.Mount
+		part = radialEngineBody
+		part = ramAirIntake
+		part = ThermalTurbojet
+		part = B9.Aero.Intake.RBM
+		part = atmosphericScoop2
+		part = warpAtmIntake2
+		part = B9.Engine.Jet.Pod.Medium
+		part = B9.Engine.Jet.Pod.Medium.PylonR
+		part = B9.Engine.Jet.Pod.Medium.PylonS
+		part = WaylandScoop
+		part = HL.AirshipEnvelopeHecto
+		part = smallHardpointHeavy
+		part = TTC7MK3EMSMmodule
+		part = TV.RamJet.Engine
+	}
+}
+NODE
+{
+	name = node7_veryHeavyRocketry
+	PARTS
+	{
+		part = NP.lfe.375m.Bearcat3x
+		part = NP.lfe.375m.EnergiaQuad
+		part = NP.lft.375m.9m
+		part = KW2mengineGriffonG8D
+		part = fueltankRockoXtall
+		part = 375PureLiquidTank
+		part = KW3mengineTitanT1
+		part = KW3mtankL2
+		part = stretchyTank1mReal
+	}
+}
+NODE
+{
+	name = node6_ionPropulsion
+	PARTS
+	{
+		part = xenonTankRadial
+		part = HexCanXenonSmall
+		part = RLA.xenonsmall
+	}
+}
+NODE
+{
+	name = node6_nuclearPropulsion
+	PARTS
+	{
+		part = nuclearcontainer0625
+		part = nuclearEngine
+		part = NuclearReactor0625
+		part = HOME.modul.powerplant
+		part = HexCanThoriumFl4
+		part = HexCanUraniumFl6
+	}
+}
+NODE
+{
+	name = node6_fieldScience
+	PARTS
+	{
+		part = roverWheel2
+		part = wheelMed
+		part = LLLTruckcab
+		part = LLLTruckcabTwin
+		part = LLLBuggyMini
+		part = LLLSkid
+		part = Wayland.RV5.RoverWheel
+	}
+}
+NODE
+{
+	name = node7_composites
+	PARTS
+	{
+		part = KzInterstageAdapter
+		part = KzProcFairingFuselage1
+		part = KzProcFairingFuselage2
+		part = KzProcFairingSide1
+		part = KzProcFairingSide2
+		part = Kosmos.URM.Fairing.Conic.S
+		part = Kosmos.URM.Fairing.Conic.T
+		part = Kosmos.URM.Fairing.Parabolic.S
+		part = Kosmos.URM.Fairing.Parabolic.T
+		part = Kosmos.URM.Fairing.Conic.S.BLK
+		part = Kosmos.URM.Fairing.Conic.T.BLK
+		part = Kosmos.URM.Fairing.Parabolic.S.BLK
+		part = Kosmos.URM.Fairing.Parabolic.T.BLK
+	}
+}
+NODE
+{
+	name = node7_heavyAerodynamics
+	PARTS
+	{
+		part = longWing
+		part = deltaWing
+		part = LLLWing1aR
+		part = LLLWing1bL
+		part = B9.Aero.Wing.SH.A65.2m
+		part = LLLwingtest
+		part = B9.Aero.Wing.SH.S.1m
+		part = LLLwingtest2
+		part = B9.Aero.Wing.SW.Winglet.3x2-2m
+		part = B9.Aero.Wing.SW.Wingtip.2x7m
+		part = Proceduralwing2
+		part = Proceduralwing2EndPiece
+		part = sweptWing3
+		part = sweptWing4
+		part = tailfin3
+	}
+}
+NODE
+{
+	name = node7_metaMaterials
+	PARTS
+	{
+		part = drydockFloor
+		part = drydockWall
+		part = LLLDebrisShieldEND
+		part = OctoStrutCargo
+		part = LLLDebrisShield
+		part = CBM-A-L
+		part = CBM-P-L
+		part = Munox
+		part = stretchyTank3m
+		part = stretchyTank1m
+		part = stretchyTank2m
+	}
+}
+NODE
+{
+	name = node5_advLanding
+	PARTS
+	{
+		part = NP.lft.25m.BigLanderTank
+		part = NP.leg.heavyleg
+		part = LLLUnderLeg
+		part = NP.leg.landerleg
+		part = landingLeg1-2
+		part = godLandingLeg2
+		part = godLandingLeg
+		part = B9.Utility.Landing.Gear.HDG1AL
+		part = B9.Utility.Landing.Gear.HDGTL
+		part = B9.Utility.Landing.Gear.HDG2AL
+		part = B9.Utility.Landing.Gear.HDG2TL
+		part = B9.Utility.Leg.H50
+		part = B9.Utility.Leg.H50P
+		part = HOME2 Heatshield
+		part = HOME.3m.legs
+		part = HOME.modul.Recon
+		part = HOME.3m.parachute
+		part = HOME.3m.pod
+		part = HOME.heatshield
+		part = SmallGearBay2
+		part = SmallGearBay3
+		part = SmallGearBay4
+		part = TD.Gear.DownLarge
+		part = TD.Gear.UpLarge
+	}
+}
+NODE
+{
+	name = node4_aerodynamicSystems
+	PARTS
+	{
+		part = tailfin
+		part = aerocam
+		part = aerocam180
+	}
+}
+NODE
+{
+	name = node5_specializedConstruction
+	PARTS
+	{
+		part = adapterLargeTo3
+		part = adapterLargeTo5
+		part = MkVHogBridge
+		part = adapterLargeTo7
+		part = adapterLargeSmallBi
+		part = adapterLargeTo9
+		part = MKVII2x1Cockpit
+		part = NP.couplerp.25m.2x125m.Plate
+		part = NP.coupler.25m.RadialClamp
+		part = adapterrads
+		part = NP.interstage.125m.25m.tank
+		part = LLLBridgetest
+		part = NP.interstage.25m.125m.plate
+		part = adapterLargeSmallQuad
+		part = NP.decoupler.stack.25m
+		part = NP.decoupler.radial.Strut
+		part = MKVIICockpitLLL
+		part = NP.zmisc.Heavystrut
+		part = B9.Adapter.SM2
+		part = couplerBiLarge
+		part = LLLCirc2a2H
+		part = couplerTriLateral
+		part = couplerTriStackL
+		part = adapterLargeSmallTri
+		part = LLLCirc2a1H
+		part = largeAdapter
+		part = B9.Structure.SNM.Strut
+		part = largeAdapter2
+		part = LLLCirc2b2H
+		part = stackQuadCoupler
+		part = LLLCirc2b1H
+		part = B9.Structure.SN.Strut
+		part = decoupler.ftr-3m
+		part = DockingStrut
+		part = Munox Aft Passenger Compartment
+		part = Munox Cap Connector
+		part = Munox Cockpit
+		part = Munox Utility Ring
+		part = KAS.Strut1
+		part = KWadapter2x1
+		part = KW2mDecouplerShroud
+		part = KWFlatadapter2x1
+		part = KWFuelAdapter2x1
+		part = KWFuelAdapter2x1S
+		part = TAL.Extended.Radial.Mount.Large
+		part = TAL.Flush.Radial.Mount.Large
+		part = TD.Heavystrut
+	}
+}
+NODE
+{
+	name = node5_heavierRocketry
+	PARTS
+	{
+		part = NP.lfe.25m.4X800Engine
+		part = NP.lfe.25m.BroncoSingle
+		part = cl.large.tripleFuelTank
+		part = NP.lfe.375m.LittleMother
+		part = DSM25mLongCommandPod
+		part = NP.lft.25m.12m
+		part = NP.lft.25m.6m
+		part = liquidEnginemogulmp1500
+		part = NP.lft.3.75m.2.25m
+		part = NP.lft.25m.4.5m
+		part = DSM25mLongTank
+		part = NP.rcstank.375m
+		part = cupola
+		part = liquidEngine1-2
+		part = fuelTank7k
+		part = fuelTank1-2
+		part = fuelTank3-2
+		part = RCSTank1-2
+		part = B9.Adapter.C125
+		part = FNMethaneEngine
+		part = FNMethaneTank3-2
+		part = 25PureLiquidTank
+		part = B9.Cockpit.M27
+		part = KupolaObsModule
+		part = part.URM.1.25.L05
+		part = part.URM.1.25.L07
+		part = part.URM.1.25.L09
+		part = cl.large.observationModule
+		part = KW2mengineMaverickV
+		part = KW3mengineWildcarXR
+		part = KW2mtankL2
+		part = KW2mtankL4
+		part = KW3mtankL1
+		part = KW3mtankPancake
+		part = KW3mRCSfuel
+		part = KW2Sidetank
+	}
+}
+NODE
+{
+	name = node5_specializedControl
+	PARTS
+	{
+		part = NP.sas.375m
+		part = wingCanard
+		part = MkVHog
+		part = DeltaWide
+		part = DSMAsas
+		part = AdvancedCanard
+		part = MkVIIICatfish
+		part = CanardController
+		part = asasmodule1-2
+		part = B9.Aero.AirBrake.Surface.Large
+		part = DSM25mCentrifuge
+		part = B9.Aero.Wing.ControlSurface.SE.2m
+		part = B9.Aero.Wing.ControlSurface.SH.2m
+		part = B9.Aero.Wing.ControlSurface.T.2m
+		part = B9.Aero.Wing.SW.Canard.5x3-5m
+		part = B9.Aero.Wing.SW.Winglet.5x4-5m
+		part = B9.Control.RCS.Port.R1A
+		part = HexCanSASLarge
+		part = KWSASmodule3mHalf
+		part = R8winglet2
+		part = winglet3-1.5
+	}
+}
+NODE
+{
+	name = node5_advElectrics
+	PARTS
+	{
+		part = capcitorRadial01
+		part = batteryBankMini
+		part = Docklights
+		part = saltguia
+		part = B9.Utility.Light.A1.Closed
+		part = B9.Utility.Light.A1.Closed.T
+		part = HexCanSmall
+		part = KWRadBattSmallL
+	}
+}
+NODE
+{
+	name = node5_precisionEngineering
+	PARTS
+	{
+		part = adapterRadialMini
+		part = NP.decoupler.stack.125m.nano
+		part = cl.mini.sas
+		part = NP.microNoseCone
+		part = adapterSmallMiniShort
+		part = SMP.largeAdapter
+		part = SMP.largeAdapter2
+		part = desacopladorsat1
+		part = SMP.radialDecoupler2
+		part = SMP.stackBiCoupler
+		part = adapterSmallMiniTall
+		part = SMP.StackDecoupler
+		part = SMP.stackQuadCoupler
+		part = SMP.stackTriCoupler
+		part = desacopladorsat2
+		part = stackDecouplerMini
+		part = RLA.decoupS
+		part = stackSeparatorMini
+		part = circradiatorKT3
+		part = RLA.radextsmall
+		part = desacopladorsat3
+		part = RadialRadiatorzzz2
+		part = Separatormultifs
+		part = B9.Adapter.SM1
+		part = PLift
+		part = KzProcFairingBase0.625
+		part = KzProcFairingBaseRing0.625
+		part = kmssh0
+		part = GantryExtraSmall
+		part = GantryExtraSmallVariant
+		part = repairStation
+		part = TAL.Extended.Radial.Mount.Small
+		part = TAL.Flush.Radial.Mount.Small
+	}
+}
+NODE
+{
+	name = node5_advExploration
+	PARTS
+	{
+		part = SCANsat.Scanner2
+		part = mk2LanderCabin
+		part = InfilPod
+		part = telescopicLadder
+		part = telescopicLadderBay
+		part = LLLCargoBox
+		part = escalerar2s
+		part = B9.Structure.L2.Ladder
+		part = B9.Structure.L4.Ladder
+		part = Wayland.FL1-RoverBody
+		part = Blimp
+		part = KAS.Container2
+		part = KAS.Pipe1
+		part = KAS.Pylon1
+	}
+}
+NODE
+{
+	name = node4_fuelSystems
+	PARTS
+	{
+		part = NP.LES.RCS.nanocone
+		part = NP.YMRCSBlockLight
+		part = LLLRCS1
+		part = RCSLongBlock
+		part = TriStrutMiniRCS
+		part = RCSTankPancake
+		part = SMP.radialRCSTank
+		part = ms1RCSTank
+		part = SMP.rcsTankRadialLong
+		part = SMP.RCSBlock
+		part = radialRCSTank
+		part = RCSFuelTank
+		part = rcsThrustermicrosn
+		part = rcsTankMini
+		part = linearRcs
+		part = RCSBlock
+		part = RLA.s.mptank.rad
+		part = B9.Control.RCS.Tank.MT1
+		part = RLA.rcs.micro
+		part = RLA.rcs.micro45
+		part = KW1mRCSfuel
+		part = RLA.rcs.linear
+		part = RLA.rcs.2way
+		part = KWrcsQuad
+		part = RLA.rcs.5way
+		part = RLA.rcs45
+		part = KWrcsQuad45
+		part = RLA.rcs45.2way
+		part = LLLRCSRadi
+		part = PWBRCSFuelBalancer
+		part = TV Conformal Tank Short - RCS
+	}
+}
+NODE
+{
+	name = node4_heavyRocketry
+	PARTS
+	{
+		part = NP.lfe.25m.Orbitalbertha
+		part = NP.lft.125m.6m
+		part = cl.large.shortMonoTank
+		part = NP.lft.25m.15m
+		part = DSM25m4XEngine
+		part = NP.lft.25m.3m
+		part = LLLCirc2a2F
+		part = NP.LES.EscapeTower.Small
+		part = NP.rcstank.25m
+		part = liquidEngineprodulVR2
+		part = cupolaWindow
+		part = LLLCirc2a1F
+		part = Mark1-2Pod
+		part = DSM25mTank
+		part = engineLargeSkipper
+		part = fuelTank2-2
+		part = LLLCirc2b2F
+		part = fuelTank4-2
+		part = fuelTanklunderl
+		part = LLLCirc2b1F
+		part = fuelTanksuperior3
+		part = fuelTanksul
+		part = RCS125ra
+		part = fuelTankmr1
+		part = tank1300cl
+		part = B9.Engine.L2.Atlas
+		part = B9.Engine.VS1
+		part = Kosmos.Angara.RD-275K
+		part = Kosmos.Angara.RD-33NK
+		part = Kosmos.TKS.RCS.Tank
+		part = Kosmos.TKS.RCS.Tank.Radless
+		part = part.URM.1.25.Cowling.NA.3J
+		part = part.URM.1.25.InterStage.NA.1E
+		part = part.URM.1.25.InterStage.NA.2E
+		part = part.URM.1.25.InterStage.NA.3E
+		part = part.URM.1.25.L02
+		part = part.URM.1.25.L03
+		part = part.URM.1.25.L04
+		part = part.URM.1.25.U02
+		part = part.URM.1.25.U03
+		part = part.URM.1.25.U04
+		part = Kosmos.TKS.2-1.Flared.Taper
+		part = Kosmos.TKS.body.2
+		part = KW2mengineVestaVR9D
+		part = KW1mtankL4
+		part = KW2mtankL1
+		part = KW2mtankPancake
+		part = KW2mRCSfuel
+		part = KWsrbGlobeX2
+		part = KWsrbGlobeX
+		part = SDHI.2.5.Mk1-2AeroShroud
+		part = SDHI.2.5.ServiceModule
+		part = SDHI.2.5.ServiceModuleAdapter
+		part = SDHI.2.5.ServiceModuleFairing
+		part = SDHI.Rockomax.LV-909.NoFairing
+	}
+}
+NODE
+{
+	name = node4_landing
+	PARTS
+	{
+		part = NP.leg.landerpeg
+		part = NP.ThorLanderstrut3
+		part = LLLUnderLeg2
+		part = landingLeg1
+		part = miniLandingLeg
+		part = SmallGearBay
+		part = expendLandingLeg
+		part = legstrotLandingLeg
+		part = plommsLandingLeg
+		part = Wayland.RV1.Roverwheel
+		part = B9.Utility.Landing.Gear.HDG1A
+		part = Wayland.RV3.RoverWheel
+		part = B9.Utility.Landing.Gear.HDG1T
+		part = B9.Utility.Landing.Gear.HDG2A
+		part = B9.Utility.Landing.Gear.HDG2T
+		part = TD.Gear.Down
+		part = TD.Gear.Up
+	}
+}
+NODE
+{
+	name = node4_spaceExploration
+	PARTS
+	{
+		part = cockpitTank
+		part = octoTankSmall
+		part = LLLRailingShort
+		part = SCANsat.Scanner
+		part = landerCabinSmall
+		part = SCANsat.Scanner32
+		part = SCANsat.Scanner24
+		part = escaleralad1
+		part = ladder1
+		part = B9.Structure.L1.Ladder
+		part = HL.AirshipEnvelope.Dodec
+		part = KAS.Container1
+		part = KAS.ContainerBay1
+		part = KAS.CPort2
+		part = KAS.HookSupport
+		part = KAS.Hook.Anchor
+		part = KAS.Winch1
+	}
+}
+NODE
+{
+	name = node4_electrics
+	PARTS
+	{
+		part = batteryPack
+		part = spotLight1
+		part = spotLight2
+		part = batteryBAEr
+		part = xluzopl
+		part = B9.Utility.Light.A1.White
+		part = B9.Utility.Light.N1.Large.White
+		part = B9.Utility.Light.N1.White
+		part = B9.Utility.Light.N2.Green
+		part = B9.Utility.Light.N2.Red
+		part = Kosmos.Common.LED.Flood.Light
+		part = KWRadBattSmallS
+	}
+}
+NODE
+{
+	name = node4_advFlightControl
+	PARTS
+	{
+		part = NP.zmisc.strake
+		part = NP.sas.25m
+		part = 2x1SAS
+		part = RCSairStabilinator
+		part = TriStrutASAS
+		part = StandardCtrlSrf
+		part = winglet3
+		part = Sasdv4
+		part = advSasModule
+		part = B9.Aero.AirBrake.Surface
+		part = B9.Aero.Wing.ControlSurface.SE.1m
+		part = B9.Aero.Wing.ControlSurface.SH.1m
+		part = B9.Aero.Wing.ControlSurface.T.1m
+		part = B9.Aero.Wing.SW.Canard.3x2-2m
+		part = B9.Aero.Wing.SW.Winglet.4x2-75m
+		part = HexCanSAS
+		part = KWSASmodule2mHalf
+		part = SDHI.2.5.AvionicsRing
+		part = R8winglet1.5
+	}
+}
+NODE
+{
+	name = node4_advConstruction
+	PARTS
+	{
+		part = adapterRadialSmall
+		part = NP.coupler.125m.DualCoupler
+		part = 1x1hullnew
+		part = NP.coupler.125m.lateral
+		part = SerCom2
+		part = NP.coupler.125m.LateralTricoupler
+		part = 1x1xthirdhullnew
+		part = NP.coupler.125m.QuadCoupler
+		part = SMP.adapterLargeSmallBi
+		part = CORE.RDM-1
+		part = SMP.adapterLargeSmallQuad
+		part = LLLCirc1a2H
+		part = SMP.adapterLargeSmallTri
+		part = stackBiCoupler
+		part = stackPoint1
+		part = LLLCirc1a1H
+		part = stackTriCoupler
+		part = SideAdapter
+		part = Kosmos.Strut.Connector
+		part = RLA.radextmed
+		part = RLA.sm.biadap
+		part = RLA.sm.quadadap
+		part = TAL.Extended.Radial.Mount.Medium
+		part = RLA.sm.triadap
+		part = TAL.Flush.Radial.Mount.Medium
+	}
+}
+NODE
+{
+	name = node3_flightControl
+	PARTS
+	{
+		part = NP.zmisc.B5.Fin
+		part = NP.zmisc.wingloadshort
+		part = cl.mini.asas
+		part = NP.zmisc.wingloadlong
+		part = smallCtrlSrf
+		part = NP.sas.125m
+		part = 2x1ASAS
+		part = SMP.advSasModule
+		part = advSascr3
+		part = R8winglet
+		part = sasModule
+		part = 1x1SAS
+		part = B9.Aero.Wing.SW.Canard.2-3x1-6m
+		part = B9.Aero.Wing.SW.Winglet.3x2-75m
+		part = HexCanASAS
+		part = HexCanSASSmall
+		part = Kosmos.Pravilo.ASAS
+	}
+}
+NODE
+{
+	name = node3_generalConstruction
+	PARTS
+	{
+		part = SMP.trussAdapter
+		part = SMP.trussPiece1x
+		part = LLLCargoBoxLarge
+		part = SMP.trussPiece3x
+		part = SerCom1m
+		part = SMP.stackPoint1
+		part = LLLBuildingdoor
+		part = smallHardpoint
+		part = strutConnector
+		part = strutsoportec1
+		part = strutCube
+		part = RLA.radatch
+		part = strutOcto
+		part = launchClamp1
+		part = FNAmmoniaTank
+		part = FNLiquidWaterTank
+	}
+}
+NODE
+{
+	name = node3_scienceTech
+	PARTS
+	{
+		part = externalcamera
+		part = externalcamera2
+		part = Kerbal Kam
+		part = scienceHardDrive
+		part = B9.Utility.InfoDrive
+		part = mumech.hullcam
+		part = TAL.Radial.Experiment.Storage.Container
+	}
+}
+NODE
+{
+	name = node3_advRocketry
+	PARTS
+	{
+		part = NP.lfe.125m.BearcatSingle
+		part = NP.lfe.125m.berthaminiquad
+		part = LLLCirc1a2F
+		part = NP.lfe.125m.K2XEngine
+		part = liquidEngine2
+		part = NP.lft.125m.15m
+		part = LLLCirc1b2F
+		part = NP.lft.125m.3m
+		part = NP.rcstank.125m
+		part = moduldesspod
+		part = liquidEngine2-2
+		part = radialLiquidEngine1-2
+		part = liquidEngineconstelacion
+		part = fuelTank
+		part = fuelTank.long
+		part = fuelLine
+		part = engineexper05
+		part = liquidEngineorbit2
+		part = VR1vulcan
+		part = RCSTanka5a
+		part = tankMER6
+		part = HOME.radial.engine
+		part = EngineerChip
+		part = Kosmos.Pravilo.Control.Collar
+		part = Kosmos.VA.RRV.Capsule
+		part = Kosmos.VA.RRV.NavComStab
+		part = Kosmos.Angara.RD-0146N2
+		part = Kosmos.Angara.RD-0146
+		part = Kosmos.RD-58SS
+		part = Kosmos.VA.RRV.Propulsion.Unit
+		part = Kosmos.Parom.RCS.Tank
+		part = URM.1.25.Cowling.A.1J
+		part = part.URM.1.25.Cowling.NA.2J
+		part = part.URM.1.25.Cowling.Skirt
+		part = part.URM.1.25.U01
+		part = Kosmos.VA.RRV.LockDown
+		part = Kosmos.VA.RRV.LockDown.Ladderless
+		part = Kosmos.Fuel.Conduit
+		part = Kosmos.VA.RRV.Retro.Unit
+		part = KW1mengineMaverick1D
+		part = KW1mengineWildCatV
+		part = KW2mengineSPS
+		part = KW1mtankL2
+		part = engineLargeSkipper.125m
+	}
+}
+NODE
+{
+	name = node2_stability
+	PARTS
+	{
+		part = NP.zmisc.SPFin
+		part = winglet
+	}
+}
+NODE
+{
+	name = node1_basicRocketry
+	PARTS
+	{
+		part = solidBooster
+		part = LLLPipeDec
+		part = KWsrbGlobeI
+		part = solidBooster1-1Small
+		part = solidBoosterSmall
+		part = hc.launchcam
+	}
+}
+NODE
+{
+	name = node2_survivability
+	PARTS
+	{
+		part = NP.chute.Radialparachute
+		part = HL.AirshipEnvelope.Una
+		part = VNG.PB.ParachuteBox
+	}
+}
+NODE
+{
+	name = node2_generalRocketry
+	PARTS
+	{
+		part = NP.aux.radialliquidbooster
+		part = NP.aux.radiallargeliquidbooster
+		part = LLLRadEng
+		part = NP.lfe.125m.RMA3
+		part = liquidEngine
+		part = SMP.engineLargeSkipper
+		part = LLLCirc1a1F
+		part = SMP.liquidEngine1-2
+		part = SMP.fuelTank.long
+		part = galaxvr2
+		part = liquidEngine3
+		part = LLLCirc1b1F
+		part = fuelTankSmall
+		part = tankMER1
+		part = tankorb1
+		part = Wayland.Portahatch2
+		part = part.URM.1.25.U00
+		part = Wayland.Portahatch
+		part = KW1mengineVestaVR1
+		part = KW1mtankL1
+		part = KW1mtankPancake
+		part = fuelLowerstage
+		part = liquidEngineMiniRescale
+		part = km.smart.fuel
+	}
+}
+NODE
+{
+	name = node0_start
+	PARTS
+	{
+		part = kerbalEVA
+		part = flag
+		part = NP.Capsule.Bootleg
+		part = mk1pod
+		part = trussPiece1x
+		part = orbitaiespod
+	}
+}
