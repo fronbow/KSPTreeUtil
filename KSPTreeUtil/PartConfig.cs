@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KSPTreeUtil
 {
-    public class PartConfig //: System.Collections.CollectionBase
+    public class PartConfig
     {
         public string filename { get; set; }
         public string name { get; set; }

@@ -127,8 +127,6 @@ namespace KSPTreeUtil
                 Cursor.Current = Cursors.WaitCursor;
                 progressBar.Maximum = files.Length;
                 progressBar.Step = 1;
-                //PartConfig[] tmpParts = new PartConfig[(files.Length)];
-                //PartConfig tmpParts = new PartConfig();
 
                 var tmpParts = new List<PartConfig>();
 
