@@ -79,6 +79,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.mnuSynchronise = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMain.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -93,7 +94,8 @@
             this.MenuItemFile,
             this.MenuItemOptions,
             this.importGameDataMnu,
-            this.helpToolStripMenuItem});
+            this.helpToolStripMenuItem,
+            this.mnuSynchronise});
             this.menuMain.Location = new System.Drawing.Point(0, 0);
             this.menuMain.Name = "menuMain";
             this.menuMain.Size = new System.Drawing.Size(757, 24);
@@ -140,11 +142,11 @@
             // 
             // mnuRecentMRU
             // 
+            this.mnuRecentMRU.Enabled = false;
             this.mnuRecentMRU.Name = "mnuRecentMRU";
             this.mnuRecentMRU.Size = new System.Drawing.Size(158, 22);
             this.mnuRecentMRU.Text = "Recent Files";
             this.mnuRecentMRU.ToolTipText = "Placeholder!";
-            this.mnuRecentMRU.Click += new System.EventHandler(this.ToolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -169,7 +171,7 @@
             // findKSPToolStripMenuItem
             // 
             this.findKSPToolStripMenuItem.Name = "findKSPToolStripMenuItem";
-            this.findKSPToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.findKSPToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.findKSPToolStripMenuItem.Text = "KSP folders";
             this.findKSPToolStripMenuItem.Click += new System.EventHandler(this.findKSPToolStripMenuItem_Click);
             // 
@@ -541,6 +543,7 @@
             this.lbPartList.Location = new System.Drawing.Point(3, 4);
             this.lbPartList.Name = "lbPartList";
             this.lbPartList.Size = new System.Drawing.Size(243, 446);
+            this.lbPartList.Sorted = true;
             this.lbPartList.TabIndex = 31;
             // 
             // tabPage1
@@ -575,6 +578,13 @@
             this.progressBar.Step = 1;
             this.progressBar.TabIndex = 33;
             this.progressBar.Tag = "Hello";
+            // 
+            // mnuSynchronise
+            // 
+            this.mnuSynchronise.Name = "mnuSynchronise";
+            this.mnuSynchronise.Size = new System.Drawing.Size(83, 20);
+            this.mnuSynchronise.Text = "Synchronise";
+            this.mnuSynchronise.Click += new System.EventHandler(this.mnuSynchronise_Click);
             // 
             // frmMain
             // 
@@ -657,6 +667,7 @@
         private System.Windows.Forms.ListBox tParents;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.ListBox lbPartList;
+        private System.Windows.Forms.ToolStripMenuItem mnuSynchronise;
     }
 }
 

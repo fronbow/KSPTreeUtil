@@ -41,7 +41,7 @@ namespace KSPTreeUtil
 
             string[] ret = Regex.Split(tmp_field, "\\\\");
 
-            return title + " : " + name;
+            return ret[1] + " : " + name + " [ " + title + " ]";
         }
         
     }

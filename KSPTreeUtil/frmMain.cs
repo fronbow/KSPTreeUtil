@@ -330,11 +330,7 @@ namespace KSPTreeUtil
 
         private void importGameDataMnu_Click(object sender, EventArgs e)
         {
-            
-
             readParts();
-
-            
         }
 
         private void refreshAvailableParts()
@@ -345,12 +341,6 @@ namespace KSPTreeUtil
         private void refreshConnectedParts()
         {
 
-        }
-
-
-        void ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-        	// TODO: Implement ToolStripMenuItem1_Click
         }
 
         private void openFileMain_FileOk(object sender, CancelEventArgs e)
@@ -375,8 +365,7 @@ namespace KSPTreeUtil
                 object selected = lbNodeTree.SelectedItem;
 
                 System.Reflection.MemberInfo inf = typeof(nodeTree);
-                //object[] attributes;
-                //attributes = inf.GetCustomAttributes(typeof(nodeTree), false);
+                
                 var current = lbNodeTree.SelectedItem as nodeTree;
 
                 tNodeName.Text = current.name;
@@ -402,9 +391,6 @@ namespace KSPTreeUtil
                     tPartsList.Items.Add(part);
                 }
                 
-                
-
-                
             }
         }
 
@@ -412,6 +398,26 @@ namespace KSPTreeUtil
         {
             AboutBox frmAbout = new AboutBox();
             frmAbout.Show();
+        }
+
+        private void mnuSynchronise_Click(object sender, EventArgs e)
+        {
+            //This function will synchronise the loaded tree with the GameData parts data.
+            if (lbNodeTree.Items.Count == 0)
+            {
+                MessageBox.Show("We can't synchronise if the tree is empty!");
+                return;
+            }
+            if (lbPartList.Items.Count == 0)
+            {
+                MessageBox.Show("You need to scan the GameData directory first.");
+                return;
+            }
+
+            List<nodeTree> nt = new List<nodeTree>();
+            List<PartConfig> pc = new List<PartConfig>();
+
+            
         }
     }
 
