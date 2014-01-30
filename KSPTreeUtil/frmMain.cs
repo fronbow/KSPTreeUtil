@@ -112,72 +112,125 @@ namespace KSPTreeUtil
             }
         }
 
-        private void readPartFile(string path)
+
+        private void readParts()
         {
-            string file = File.ReadAllText(@path);
-            int numLines = File.ReadLines(@path).Count();
-            int counter = 0;
-            RegexOptions options = RegexOptions.IgnorePatternWhitespace | RegexOptions.Singleline;
-            string pattern = Regex.Escape("{") + ".*?" + Regex.Escape("}");
-            string patterns = "(AUDIO|MODULE|MODEL|EFFECTS|RESOURCE|PROPELLANT).*?" + pattern;      //remove inner patterns from part.cfg
+            //lbPartList.Items.Clear();
 
-            string tmpFile = Regex.Replace(file, "//.*?\\r\\n", "", options);            //remove comment lines
-            
-            tmpFile = Regex.Replace(tmpFile, "(\\t)", "", options);                      //remove tabs
-            tmpFile = Regex.Replace(tmpFile, patterns, "", options);
+            progressBar.Value = 0;
+            string rootdir = Properties.Settings.Default.KSPDir + "\\GameData";
 
-            //tmpFile = Regex.Replace(tmpFile, "(\\r\\n\\t|\\r\\n|\\t)", " ");
-            string[] tparts = Regex.Split(tmpFile, "PART.*?\\{(.*?)\\}", options);
-            //remove non-part entries from parts[]
-            ArrayList parts = new ArrayList();
-            
-            foreach (string p in tparts)
+            if (Directory.Exists(rootdir))
             {
-                if (p.Contains("name"))
+                string[] files = Directory.GetFiles(rootdir, "*.cfg", SearchOption.AllDirectories);
+                string tmp_field = "";
+                Cursor.Current = Cursors.WaitCursor;
+                progressBar.Maximum = files.Length;
+                progressBar.Step = 1;
+                //PartConfig[] tmpParts = new PartConfig[(files.Length)];
+                //PartConfig tmpParts = new PartConfig();
+
+                var tmpParts = new List<PartConfig>();
+
+
+                int counter = 0;
+                ListViewItem part = new ListViewItem();
+
+                foreach (string file in files)
                 {
-                    parts.Add(p);
-                }
-            }
+                    part.Text = file;
+                    FileInfo ff = new FileInfo(file);
 
-            //int sizeN = parts.Length;
+                    tmp_field = part.Text.Replace(rootdir, "");
+                    tmp_field = tmp_field.Replace(ff.Name, "");
 
-            PartConfig[] tmpParts = new PartConfig[parts.Count];
+                    //read file and stick in var
+                    //--------------------------
+                    string theFile = File.ReadAllText(@file);
+                    int numLines = File.ReadLines(@file).Count();
+                    int counterx = 0;
+                    RegexOptions options = RegexOptions.IgnorePatternWhitespace | RegexOptions.Singleline;
+                    string pattern = Regex.Escape("{") + ".*?" + Regex.Escape("}");
+                    string patterns = "(AUDIO|MODULE|MODEL|EFFECTS|RESOURCE|PROPELLANT).*?" + pattern;      //remove inner patterns from part.cfg
 
-            foreach (string value in parts)
-            {
-                string[] splitCache = value.Split(new string[] { "\n", "\r", "\t", "{", "}" }, StringSplitOptions.RemoveEmptyEntries);
-                tmpParts[counter] = new PartConfig();
-                foreach (string sc in splitCache)
-                {
-                    string[] vals = Regex.Split(sc, "=", options);
-                    switch (vals[0].Trim())
+                    string tmpFile = Regex.Replace(theFile, "//.*?\\r\\n", "", options);            //remove comment lines
+
+                    tmpFile = Regex.Replace(tmpFile, "(\\t)", "", options);                      //remove tabs
+                    tmpFile = Regex.Replace(tmpFile, patterns, "", options);
+
+                    string[] tparts = Regex.Split(tmpFile, "PART.*?\\{(.*?)\\}", options);
+                    //remove non-part entries from parts[]
+                    ArrayList parts = new ArrayList();
+
+                    foreach (string p in tparts)
                     {
-                        case "name":
-                            tmpParts[counter].name = vals[1].Trim();
-                            break;
-                        case "TechRequired":
-                            tmpParts[counter].TechRequired = vals[1].Trim();
-                            break;
-                        case "entryCost":
-                            tmpParts[counter].entryCost = Convert.ToInt32(vals[1].Trim());
-                            break;
-                        case "cost":
-                            tmpParts[counter].cost = Convert.ToInt32(vals[1].Trim());
-                            break;
-                        case "title":
-                            tmpParts[counter].title = vals[1].Trim();
-                            break;
-                        case "description":
-                            tmpParts[counter].description = vals[1].Trim();
-                            break;
+                        if (p.Contains("name"))
+                        {
+                            parts.Add(p);
+                        }
                     }
+
+                    PartConfig[] fileParts = new PartConfig[parts.Count];
+
+                    foreach (string value in parts)
+                    {
+                        string[] splitCache = value.Split(new string[] { "\n", "\r", "\t", "{", "}" }, StringSplitOptions.RemoveEmptyEntries);
+                        fileParts[counterx] = new PartConfig();
+                        foreach (string sc in splitCache)
+                        {
+                            string[] vals = Regex.Split(sc, "=", options);
+                            switch (vals[0].Trim())
+                            {
+                                case "name":
+                                    fileParts[counterx].name = vals[1].Trim();
+                                    break;
+                                case "TechRequired":
+                                    fileParts[counterx].TechRequired = vals[1].Trim();
+                                    break;
+                                case "entryCost":
+                                    fileParts[counterx].entryCost = Convert.ToInt32(vals[1].Trim());
+                                    break;
+                                case "cost":
+                                    fileParts[counterx].cost = Convert.ToInt32(vals[1].Trim());
+                                    break;
+                                case "title":
+                                    fileParts[counterx].title = vals[1].Trim();
+                                    break;
+                                case "description":
+                                    fileParts[counterx].description = vals[1].Trim();
+                                    break;
+                            }
+                        }
+                        fileParts[counterx].filename = ff.FullName;
+                        //lbPartList.Items.Add(fileParts[counter].ToString());
+                        if (fileParts[counterx].title != "")
+                        {
+                            //tmpParts[counter] = fileParts[counterx];
+                            tmpParts.Add(fileParts[counterx]);
+                        }
+                        
+                        counterx++;
+                    }
+                    //--------------------------
+
+                    progressBar.PerformStep();
+                    counter++;
                 }
-                tmpParts[counter].filename = @path;
-                lbPartList.Items.Add(tmpParts[counter].ToString());
-                counter++;
+                
+
+                lbPartList.DataSource = tmpParts.ToList();
+                lbPartList.Refresh();
+
+                Cursor.Current = Cursors.Default;
+                progressBar.Value = 0;
             }
-            //lbPartList.DataSource = tmpParts.ToList();
-            //lbPartList.Items.Add(tmpParts.ToList());
+            else
+            {
+                MessageBox.Show("Please specify the KSP directory in the options menu");
+            }
+
+            
+
         }
 
         private void readTree(string path)
@@ -279,48 +332,11 @@ namespace KSPTreeUtil
 
         private void importGameDataMnu_Click(object sender, EventArgs e)
         {
-            //traverse the GameData folder and collect all the part.cfg files
-            //need: name, TechRequired, cost, category, subcategory, title
-            lbPartList.Items.Clear();
-            progressBar.Value = 0;
-
-            string rootdir = Properties.Settings.Default.KSPDir + "\\GameData";
-            if (Directory.Exists(rootdir)) {
-            	string tmp_field = "";
-            	
-            	string[] files = Directory.GetFiles(rootdir, "*.cfg", SearchOption.AllDirectories);
-
-            	Cursor.Current = Cursors.WaitCursor;
-            	progressBar.Maximum = files.Length;
-            	progressBar.Step = 1;
-
-            	ListViewItem part = new ListViewItem();
-
-            	foreach (string file in files)
-            	{
-            		part.Text = file;
-                    FileInfo ff = new FileInfo(file);
-
-            		tmp_field = part.Text.Replace(rootdir, "");
-            		tmp_field = tmp_field.Replace(ff.Name, "");
-
-                    //read the file to make sure it's a proper part file
-                    //also need to get part names from the file and not the filename.
-                    readPartFile(file);
-
-            		//lbPartList.Items.Add(tmp_field);
-
-            		progressBar.PerformStep();
-            	}
-
-            	lbPartList.Refresh();
-                
-            	Cursor.Current = Cursors.Default;
-            } else {
-            	MessageBox.Show("Please specify the KSP directory in the options menu");
-            }
             
-            progressBar.Value = 0;
+
+            readParts();
+
+            
         }
 
         private void refreshAvailableParts()

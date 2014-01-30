@@ -88,8 +88,6 @@ namespace KSPTreeUtil
             AnyParent = false;
             HideIfEmpty = false;
             Parents = "";
-
-
         }
 
         public override string ToString()

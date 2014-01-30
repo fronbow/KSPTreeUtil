@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KSPTreeUtil
 {
-    public class PartConfig
+    public class PartConfig //: System.Collections.CollectionBase
     {
         public string filename { get; set; }
         public string name { get; set; }
@@ -30,6 +30,7 @@ namespace KSPTreeUtil
             description = "";
         }
 
+        
         public override string ToString()
         {
             string rootdir = Properties.Settings.Default.KSPGameData;
@@ -40,7 +41,8 @@ namespace KSPTreeUtil
 
             string[] ret = Regex.Split(tmp_field, "\\\\");
 
-            return ret[1] + " : " + name;
+            return title + " : " + name;
         }
+        
     }
 }
